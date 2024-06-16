@@ -1,5 +1,5 @@
 import { Montserrat } from "next/font/google";
-import rocket from "@/images/assets/rocket.png";
+import rocket from "@/images/assets/rocketenh.png";
 
 const mont = Montserrat({
     subsets:['latin'],
