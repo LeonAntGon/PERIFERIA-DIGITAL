@@ -17,16 +17,18 @@ export default function Hero(){
     return(
         <main >
 
-            <section className="flex content-between items-center">
+            <section className="flex content-between items-center max-h-[500px]">
 
                 <div className="w-[40%]">
-                    <h1 className={`text-center text-[16px] ${robo.className}`}>ESTRATEGIAS DIGITALES <br></br> PARA TU &nbsp;
-                    <span className={`text-[20px] stroke-black ${saira.className}`}
-                    style={{
-                        color: '#87b9ff',
-                        WebkitTextStrokeWidth: '1px',
-                        WebkitTextStrokeColor: '#000000',
-                    }}>NEGOCIO</span></h1>
+                    <h1 style={{
+                    backgroundImage: 'linear-gradient(to right, #41C5C5, #006DC3)',
+                    WebkitBackgroundClip: 'text',
+                    color: 'transparent',
+                    WebkitTextStroke: '0.3px black',
+                    textStroke: '1px black'
+                    
+                    }} className={`text-center pl-2 text-[16px] sm:text-[18px] ${robo.className}`}>ESTRATEGIAS DIGITALES <br></br> PARA TU &nbsp;
+                    <span >NEGOCIO</span></h1>
                 </div>
                 <div className="w-[60%]">
                     <img className="w-[100%] h-[100%]" src={chess.src} alt="Hero image"/>

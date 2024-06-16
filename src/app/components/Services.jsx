@@ -1,5 +1,6 @@
 import { Montserrat } from "next/font/google";
 import rocket from "@/images/assets/rocketenh.png";
+import Link from "next/link";
 
 const mont = Montserrat({
     subsets:['latin'],
@@ -20,6 +21,16 @@ export default function Services(){
             
             <div className="bg-white text-black">
                 <div className="container mx-auto flex flex-col items-start md:flex-row my-4 md:my-14">
+                  <div class="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
+                  <p class="ml-2 text-black font-semibold uppercase tracking-loose">¿DONDE EMPEZAR?</p>
+                  <p class="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2"></p>
+                  <p class="text-sm md:text-base text-gray-800 mb-4">
+                  Nuestros servicios se adaptan perfectamente a tu sector y a tus necesidades específicas. Te ofrecemos una llamada de consultoría para aclarar cualquier duda que tengas y proporcionarte el máximo valor 💎
+                  </p>
+        <Link href="#"
+        class="bg-transparent mr-auto text-blue-600 hover:bg-gray-100  hover:text-blue-600 font-semibold rounded shadow hover:shadow-lg py-2 px-4 border border-blue-500 hover:border-blue-600">
+        VER PRECIOS</Link>
+      </div>
       
                <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
                <div className="container mx-auto w-full h-full">
@@ -66,7 +77,7 @@ export default function Services(){
               </div>
             </div>
             </div>
-            <img className="mx-auto -mt-36 md:-mt-36 h-[368px] w-[300px]" src={rocket.src} alt="Impulsa tu negocio" />
+            <img className="mx-auto -mt-36 md:-mt-36 h-[368px] w-[400px]" src={rocket.src} alt="Impulsa tu negocio" />
            </div>
            </div>
            </div>

@@ -17,8 +17,8 @@ export default function App() {
       
       
 
-      <NavbarContent className="sm:hidden pr-3" justify="center">
-        <NavbarBrand>
+      <NavbarContent className=" pr-3" justify="center">
+        <NavbarBrand className="md:mx-auto">
           {/* <AcmeLogo />*/}
           <Link href="./" className="pointer"><Image src={logo.src} alt="logo" height={60} width={60} /></Link>
           
@@ -26,7 +26,7 @@ export default function App() {
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="sm:hidden" justify="end">
+      <NavbarContent className="" justify="end">
         <NavbarMenuToggle />
       </NavbarContent>
 
