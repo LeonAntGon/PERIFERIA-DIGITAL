@@ -41,7 +41,7 @@ export default function Services(){
               style={{ left: '50%', border: '1px solid #006dfe', borderRadius: '60%' }}></div>
               <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
               <div className="order-1 w-5/12"></div>
-              <div className="order-1 w-5/12 px-1 py-4 text-right">
+              <div className="order-1 w-5/12 px-1 py-4 text-left">
                 <h4 className={`mb-3 font-bold text-lg md:text-xl ${mont.className}`}>Desarrollo web </h4>
                 <p className="text-sm md:text-base leading-snug text-gray-900 text-opacity-100">
                 Desarrollo web a medida con diseño atractivo y adaptable dispositivo, desde móviles hasta pantallas grandes.
@@ -60,7 +60,7 @@ export default function Services(){
             </div>
             <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
               <div className="order-1 w-5/12"></div>
-              <div className="order-1 w-5/12 px-1 py-4 text-right">
+              <div className="order-1 w-5/12 px-[1px] py-4 text-left">
                 <h4 className={`mb-3 font-bold text-lg md:text-xl text-center ${mont.className}`}>Comunity management</h4>
                 <p className="text-sm md:text-base leading-snug text-gray-900 text-opacity-100">
                   Conversion de potenciales clientes mediante optimización en las redes sociales y el manejo de las mismas.
