@@ -77,7 +77,7 @@ export default function Services(){
               </div>
             </div>
             </div>
-            <img className="mx-auto -mt-36 md:-mt-36 h-[368px] w-[400px]" src={rocket.src} alt="Impulsa tu negocio" />
+            <img className="mx-auto -mt-36 md:-mt-36 h-[250px] w-[330px]" src={rocket.src} alt="Impulsa tu negocio" />
            </div>
            </div>
            </div>
