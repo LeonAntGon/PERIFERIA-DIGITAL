@@ -9,7 +9,7 @@ import milena from '@/images/capturas/milenaindumentaria.png'
 
 
 const img = [toledo, male, milena ]
-const titles = ["Taller de Joyería Toledo","Yas Lencería", "Tesla"]
+const titles = ["Taller de Joyería Toledo","Male Moda", "Milena Indumentaria"]
 const description = [
   "Pagina Web para taller de Joyería y reparaciones de joyas",
   "Indumentaria de ropa femenina con gran variedad en el catalogo", 

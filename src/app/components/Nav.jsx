@@ -1,6 +1,6 @@
 "use client"
 import {Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
-import logo from '@/images/assets/logowhitetransparent.png'
+import logo from '@/images/assets/logowhitetransparent.png';
 import Image from "next/image";
 
 
@@ -20,7 +20,7 @@ export default function App() {
       <NavbarContent className="sm:hidden pr-3" justify="center">
         <NavbarBrand>
           {/* <AcmeLogo />*/}
-          <Link href="/" className="pointer"><Image src={logo.src} alt="logo" height={60} width={60} /></Link>
+          <Link href="./" className="pointer"><Image src={logo.src} alt="logo" height={60} width={60} /></Link>
           
 
         </NavbarBrand>
