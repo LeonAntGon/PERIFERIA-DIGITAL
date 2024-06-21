@@ -52,7 +52,7 @@ export default function Services(){
               <div className="mb-8 flex justify-between items-center w-full right-timeline">
               <div className="order-1 w-5/12"></div>
               <div className="order-1 w-5/12 px-1 py-4 text-left">
-                <h4 className={`mb-3 font-bold text-lg md:text-xl ${mont.className}`}>Facebook Ads</h4>
+                <h4 className={`mb-3 font-bold text-lg md:text-xl ${mont.className}`}>Anuncios en redes</h4>
                 <p className="text-sm md:text-base leading-snug text-gray-900 text-opacity-100">
                 Atrae clientes potenciales, aumenta las ventas y haz crecer tu negocio con anuncios segmentados y efectivos.
                 </p>
