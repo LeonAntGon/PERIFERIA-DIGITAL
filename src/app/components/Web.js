@@ -28,6 +28,12 @@ function CheckIcon() {
 
 export default function Web(){
   return(
+  <main>
+
+    <h1 className="text-center font-semibold py-4 text-xl">Desarrollo Web</h1>
+    <h2 className="ml-4 lg:mx-[48px] text-[15px] font-bold text-[#0109ff] opacity-[50%]"> - Emprendedores -</h2>
+    <p className="mx-3 lg:mx-[48px] text-[14px] mt-3">Los planes para emprendedores son aplicables a vendedores de productos físicos o digitales, como revendedores, tiendas de indumentaria o comerciantes de productos de marca.</p>
+    <p className="mx-3 lg:mx-[48px] text-[13px] mt-1">La cantidad de productos puede afectar significativamente el abonar de la página o el mantenimiento</p>
     <section className="flex flex-wrap justify-center">
       {/*Emprendedor básico */}
         <Card 
@@ -35,12 +41,12 @@ export default function Web(){
           background: 'linear-gradient(to right, #41C5C5, #006DC3)',
           
           }}
-          color="gray" variant="gradient" className="w-full max-w-[22rem] p-8 mx-2 my-5 lg:my-0">
+          color="gray" variant="gradient" className="w-full max-w-[22rem] p-6 mx-2 my-5 lg:my-0">
         <CardHeader
         floated={false}
         shadow={false}
         color="transparent"
-        className="m-0 mb-6 rounded-none border-b border-white/10 pb-8 text-center"
+        className="m-0 mb-4 rounded-none border-b border-white/10 pb-8 text-center"
         >
         <Typography
         
@@ -60,7 +66,7 @@ export default function Web(){
         </Typography>
         </CardHeader>
         <CardBody className="p-0">
-        <ul className="flex flex-col gap-4">
+        <ul className="flex flex-col gap-3">
           <li className="flex items-center gap-3">
             <span className="rounded-full border border-white/20 bg-white/20 p-1">
               <CheckIcon />
@@ -126,12 +132,12 @@ export default function Web(){
         background: 'linear-gradient(to right, #db708c, #482865)',
         
         }
-        }color="gray" variant="gradient" className="w-full max-w-[22rem] p-8 bg-black mx-2 my-5 lg:my-0">
+        }color="gray" variant="gradient" className="w-full max-w-[22rem] p-6 bg-black mx-2 my-5 lg:my-0">
         <CardHeader
         floated={false}
         shadow={false}
         color="transparent"
-        className="m-0 mb-8 rounded-none border-b border-white/10 pb-8 text-center"
+        className="m-0 mb-6 rounded-none border-b border-white/10 pb-8 text-center"
         >
         <Typography
           variant="small"
@@ -150,7 +156,7 @@ export default function Web(){
         </Typography>
         </CardHeader>
         <CardBody className="p-0">
-        <ul className="flex flex-col gap-4">
+        <ul className="flex flex-col gap-3">
           <li className="flex items-center gap-4">
             <span className="rounded-full border border-white/20 bg-white/20 p-1">
               <CheckIcon />
@@ -214,7 +220,7 @@ export default function Web(){
         background: 'linear-gradient(to right, #515151, #000000)',
         
         }}
-        color="gray" variant="gradient" className="w-full max-w-[22rem] p-8 bg-black mx-2 my-5 md:mt-4 lg:my-0">
+        color="gray" variant="gradient" className="w-full max-w-[22rem] p-6 bg-black mx-2 my-5 md:mt-4 lg:my-0">
         <CardHeader
         floated={false}
         shadow={false}
@@ -238,7 +244,7 @@ export default function Web(){
         </Typography>
         </CardHeader>
         <CardBody className="p-0">
-        <ul className="flex flex-col gap-4">
+        <ul className="flex flex-col gap-3">
           <li className="flex items-center gap-4">
             <span className="rounded-full border border-white/20 bg-white/20 p-1">
               <CheckIcon />
@@ -298,5 +304,6 @@ export default function Web(){
        </CardFooter>  
        </Card>
     </section>
+  </main>
   )
 }
