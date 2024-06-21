@@ -38,12 +38,12 @@ export default function Services(){
               style={{ left: '50%', border: '1px solid #006dfe', borderRadius: '60%' }}></div>
               <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
               <div className="order-1 w-5/12"></div>
-              <div className="order-1 w-5/12 px-1 py-4 text-left">
+              <div className="order-1 w-6/12 px-1 py-4 text-left">
                 <h4 className={`mb-3 font-bold text-lg md:text-xl ${mont.className}`}>Desarrollo web </h4>
                 <p className="text-sm md:text-base leading-snug text-gray-900 text-opacity-100">
                 Desarrollo web a medida con diseño atractivo y adaptable dispositivo, desde móviles hasta pantallas grandes.
                 </p>
-                <p className="text-sm font-semibold mb-4">E-commerce | Portafolio | Landing pages | Catálogo</p>
+                <p className="text-sm font-semibold mb-4">E-commerce | Catálogo | Portafolio | Landing | </p>
                 <Link href="./preciosweb"
                 class="bg-transparent mr-auto text-blue-600 hover:bg-gray-100  hover:text-blue-600 font-semibold rounded shadow hover:shadow-lg py-2 px-4 border border-blue-500 hover:border-blue-600">
                 VER PRECIOS</Link>
