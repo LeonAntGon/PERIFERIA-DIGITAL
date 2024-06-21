@@ -27,10 +27,7 @@ export default function Services(){
                   <p class="text-sm md:text-base text-gray-800 mb-4">
                   Nuestros servicios se adaptan perfectamente a tu sector y a tus necesidades específicas. Te ofrecemos una llamada de consultoría para aclarar cualquier duda que tengas y proporcionarte el máximo valor 💎
                   </p>
-        <Link href="#"
-        class="bg-transparent mr-auto text-blue-600 hover:bg-gray-100  hover:text-blue-600 font-semibold rounded shadow hover:shadow-lg py-2 px-4 border border-blue-500 hover:border-blue-600">
-        VER PRECIOS</Link>
-      </div>
+            </div>
       
                <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
                <div className="container mx-auto w-full h-full">
@@ -46,8 +43,12 @@ export default function Services(){
                 <p className="text-sm md:text-base leading-snug text-gray-900 text-opacity-100">
                 Desarrollo web a medida con diseño atractivo y adaptable dispositivo, desde móviles hasta pantallas grandes.
                 </p>
-                <p className="text-sm font-semibold">E-commerce | Portafolio | Landing pages | Catálogo</p>
+                <p className="text-sm font-semibold mb-4">E-commerce | Portafolio | Landing pages | Catálogo</p>
+                <Link href="./preciosweb"
+                class="bg-transparent mr-auto text-blue-600 hover:bg-gray-100  hover:text-blue-600 font-semibold rounded shadow hover:shadow-lg py-2 px-4 border border-blue-500 hover:border-blue-600">
+                VER PRECIOS</Link>
               </div>
+              
               </div>
               <div className="mb-8 flex justify-between items-center w-full right-timeline">
               <div className="order-1 w-5/12"></div>
