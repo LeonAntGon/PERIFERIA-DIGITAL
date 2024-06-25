@@ -45,9 +45,41 @@ export default function Services(){
                 Desarrollo web a medida con diseño atractivo y adaptable dispositivo, desde móviles hasta pantallas grandes.
                 </p>
                 <p className="text-sm font-semibold mb-4">E-commerce | Catálogo | Portafolio | Landing | </p>
-                <Link href="./preciosweb"
-                class="bg-transparent mr-auto text-blue-600 hover:bg-gray-100  hover:text-blue-600 font-semibold rounded shadow hover:shadow-lg py-2 px-4 border border-blue-500 hover:border-blue-600">
-                VER PRECIOS</Link>
+                <Link href="/preciosweb" passHref>
+                <button
+                className="relative flex items-center justify-center w-[130px] h-10 bg-black text-white font-semibold gap-2 cursor-pointer shadow-[5px_5px_10px_rgba(0,0,0,0.103)] transition duration-300 overflow-hidden"
+                style={{ border: 'none' }}
+                onMouseOver={(e) => {
+                const before = e.currentTarget.querySelector('span');
+                before.style.transform = 'translate(100%,-50%)';
+                before.style.borderRadius = '0';
+                }}
+                onMouseOut={(e) => {
+                const before = e.currentTarget.querySelector('span');
+                 before.style.transform = '';
+                before.style.borderRadius = '50%';
+                }}
+                onMouseDown={(e) => {
+                e.currentTarget.style.transform = 'translate(5px,5px)';
+                 }}
+                 onMouseUp={(e) => {
+                e.currentTarget.style.transform = '';
+                }}
+                >
+               VER PRECIOS
+              <span
+              className="absolute bg-white rounded-full"
+              style={{
+              width: '130px',
+              height: '130px',
+              left: '-100%',
+              top: '0',
+              transitionDuration: '0.3s',
+              mixBlendMode: 'difference',
+              }}
+             ></span>
+             </button>
+                </Link>
               </div>
               
               </div>
@@ -67,7 +99,43 @@ export default function Services(){
                 <p className="text-sm md:text-base leading-snug text-gray-900 text-opacity-100">
                   Conversion de potenciales clientes mediante optimización en las redes sociales y el manejo de las mismas.
                 </p>
+                
               </div>
+              <Link href="/proximamente" passHref>
+                <button
+                className="relative flex items-center justify-center w-[130px] h-10 bg-black text-white font-semibold gap-2 cursor-pointer shadow-[5px_5px_10px_rgba(0,0,0,0.103)] transition duration-300 overflow-hidden"
+                style={{ border: 'none' }}
+                onMouseOver={(e) => {
+                const before = e.currentTarget.querySelector('span');
+                before.style.transform = 'translate(100%,-50%)';
+                before.style.borderRadius = '0';
+                }}
+                onMouseOut={(e) => {
+                const before = e.currentTarget.querySelector('span');
+                 before.style.transform = '';
+                before.style.borderRadius = '50%';
+                }}
+                onMouseDown={(e) => {
+                e.currentTarget.style.transform = 'translate(5px,5px)';
+                 }}
+                 onMouseUp={(e) => {
+                e.currentTarget.style.transform = '';
+                }}
+                >
+               VER PRECIOS
+              <span
+              className="absolute bg-white rounded-full"
+              style={{
+              width: '130px',
+              height: '130px',
+              left: '-100%',
+              top: '0',
+              transitionDuration: '0.3s',
+              mixBlendMode: 'difference',
+              }}
+             ></span>
+             </button>
+                </Link>
             </div>
             <div className="mb-8 flex justify-between items-center w-full right-timeline">
               <div className="order-1 w-5/12"></div>
