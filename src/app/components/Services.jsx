@@ -27,6 +27,7 @@ export default function Services(){
                   <p class="text-sm md:text-base text-gray-800 mb-4">
                   Nuestros servicios se adaptan perfectamente a tu sector y a tus necesidades específicas. Te ofrecemos una llamada de consultoría para aclarar cualquier duda que tengas y proporcionarte el máximo valor 💎
                   </p>
+                  
             </div>
       
                <div className="ml-0 md:ml-12 lg:w-2/3 sticky">

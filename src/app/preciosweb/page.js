@@ -2,14 +2,15 @@
 
 import Nav from '../components/Nav.jsx';
 import Footer from '../components/Footer.jsx';
-import Web from '../components/Web.js';
+import Precios from '../components/Precios.jsx';
+
    
 export default function Preciosweb() {
     
     return (
         <>
         <Nav />
-        <Web />        
+        <Precios />
         <Footer />
       </>
     );
