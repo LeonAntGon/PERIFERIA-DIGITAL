@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import './styles/Instagram.css';
+//import './styles/Instagram.css';
 
 export default function Instagram() {
   const [hovered, setHovered] = useState(false);
 
   return (
     <div
-      className={`card bg-[#f7f7f8] hover:text-[#E50087] hover:bg-[#FFE5F4] max-w-[23ch] text-center p-[1.5em] rounded-lg relative overflow-hidden transition duration-300 ease-in-out transform flex flex-col justify-center items-center gap-4`}
+      className={`border-gray-700 border-[1px] bg-[#f7f7f8] hover:text-[#E50087] hover:bg-[#FFE5F4] max-w-[23ch] text-center p-[1.5em] rounded-lg relative overflow-hidden transition duration-300 ease-in-out transform flex flex-col justify-center items-center gap-4`}
       style={{
         paddingBlock: "1.8em",
       }}
@@ -24,15 +24,17 @@ export default function Instagram() {
       >
         Instagram
       </strong>
-      <div className="text-[#464853] leading-6 text-base">
+      <div className={`text-[#464853] leading-6 text-base ${hovered ? 'opacity-0' : 'opacity-100'}`}>
         Siguenos para saber más de nosotros
       </div>
       <span
         className={`absolute inset-0 flex justify-center items-center rounded-lg font-bold transition-all duration-300 ease-cubic-60-40 ${hovered ? 'top-0 text-[1.2em]' : 'top-full'}`}
-        style={{ color: hovered ? '#E50087' : '#464853' }}
+        style={{ color: hovered ? '#E50087' : 'transparent' }}
       >
         Seguir
       </span>
     </div>
   );
 };
+
+//
