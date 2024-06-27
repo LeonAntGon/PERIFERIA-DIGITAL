@@ -8,7 +8,7 @@ const mont = Montserrat({
 
 export default function Services(){
     return(
-        <section className="mt-4">
+        <section className="mt-[40px]">
 
 
             <div className="flex">
@@ -89,8 +89,8 @@ export default function Services(){
               <div className="order-1 w-5/12 px-1 py-4">
                 <h4 className={`mb-3 font-bold text-lg md:text-xl ${mont.className}`}>Trafficker Digital</h4>
                 <p className="text-sm md:text-base leading-snug text-gray-900 text-opacity-100">
-                Un Trafficker Digital gestiona y optimiza campañas publicitarias online en plataformas como Google Ads y Facebook Ads
-                 para asegurar que los anuncios lleguen a la audiencia correcta y maximicen el retorno de inversión (ROI).
+                Gestionamos y optimizamos campañas publicitarias online en plataformas como Facebook e Instagram
+                para asegurar que los anuncios lleguen a la audiencia correcta y maximizar las probabilidades de venta.
                 <Link href="/proximamente" passHref>
                 <button
                 className="mt-4 relative flex items-center justify-center w-[130px] h-10 bg-black text-white font-semibold gap-2 cursor-pointer shadow-[5px_5px_10px_rgba(0,0,0,0.103)] transition duration-300 overflow-hidden"
