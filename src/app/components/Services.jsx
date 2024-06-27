@@ -86,25 +86,14 @@ export default function Services(){
               </div>
               <div className="mb-8 flex justify-between items-center w-full right-timeline">
               <div className="order-1 w-5/12"></div>
-              <div className="order-1 w-5/12 px-1 py-4 text-left">
-                <h4 className={`mb-3 font-bold text-lg md:text-xl ${mont.className}`}>Anuncios en redes</h4>
+              <div className="order-1 w-5/12 px-1 py-4">
+                <h4 className={`mb-3 font-bold text-lg md:text-xl ${mont.className}`}>Trafficker Digital</h4>
                 <p className="text-sm md:text-base leading-snug text-gray-900 text-opacity-100">
-                Atrae clientes potenciales, aumenta las ventas y haz crecer tu negocio con anuncios segmentados y efectivos.
-                </p>
-              </div>
-            </div>
-            <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
-              <div className="order-1 w-5/12"></div>
-              <div className="order-1 w-5/12 px-[1px] py-4 text-left">
-                <h4 className={`mb-3 font-bold text-lg md:text-xl text-center ${mont.className}`}>Comunity management</h4>
-                <p className="text-sm md:text-base leading-snug text-gray-900 text-opacity-100">
-                  Conversion de potenciales clientes mediante optimización en las redes sociales y el manejo de las mismas.
-                </p>
-                
-              </div>
-              <Link href="/proximamente" passHref>
+                Un Trafficker Digital gestiona y optimiza campañas publicitarias online en plataformas como Google Ads y Facebook Ads
+                 para asegurar que los anuncios lleguen a la audiencia correcta y maximicen el retorno de inversión (ROI).
+                <Link href="/proximamente" passHref>
                 <button
-                className="relative flex items-center justify-center w-[130px] h-10 bg-black text-white font-semibold gap-2 cursor-pointer shadow-[5px_5px_10px_rgba(0,0,0,0.103)] transition duration-300 overflow-hidden"
+                className="mt-4 relative flex items-center justify-center w-[130px] h-10 bg-black text-white font-semibold gap-2 cursor-pointer shadow-[5px_5px_10px_rgba(0,0,0,0.103)] transition duration-300 overflow-hidden"
                 style={{ border: 'none' }}
                 onMouseOver={(e) => {
                 const before = e.currentTarget.querySelector('span');
@@ -137,18 +126,62 @@ export default function Services(){
              ></span>
              </button>
                 </Link>
-            </div>
-            <div className="mb-8 flex justify-between items-center w-full right-timeline">
-              <div className="order-1 w-5/12"></div>
-              <div className="order-1 w-5/12 px-1 py-4">
-                <h4 className={`mb-3 font-bold text-lg md:text-xl ${mont.className}`}>Mensajeria automatizada</h4>
-                <p className="text-sm md:text-base leading-snug text-gray-900 text-opacity-100">
-                  Bots de consultoría y automatizacion de mensajes via Whats App, Instagram, Facebook y web.
+
                 </p>
+                
               </div>
+              
             </div>
+            <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+              <div className="order-1 w-5/12"></div>
+              <div className="order-1 w-5/12 px-[1px] py-4 text-left">
+                <h4 className={`mb-3 font-bold text-lg md:text-xl text-center ${mont.className}`}>Mensajeria automatizada</h4>
+                <p className="text-sm md:text-base leading-snug text-gray-900 text-opacity-100">
+                Bots de consultoría y automatizacion de mensajes via Whats App, Instagram, Facebook y web.
+                <Link href="/proximamente" passHref>
+                <button
+                className="mt-4 relative flex items-center justify-center w-[130px] h-10 bg-black text-white font-semibold gap-2 cursor-pointer shadow-[5px_5px_10px_rgba(0,0,0,0.103)] transition duration-300 overflow-hidden"
+                style={{ border: 'none' }}
+                onMouseOver={(e) => {
+                const before = e.currentTarget.querySelector('span');
+                before.style.transform = 'translate(100%,-50%)';
+                before.style.borderRadius = '0';
+                }}
+                onMouseOut={(e) => {
+                const before = e.currentTarget.querySelector('span');
+                 before.style.transform = '';
+                before.style.borderRadius = '50%';
+                }}
+                onMouseDown={(e) => {
+                e.currentTarget.style.transform = 'translate(5px,5px)';
+                 }}
+                 onMouseUp={(e) => {
+                e.currentTarget.style.transform = '';
+                }}
+                >
+               VER PRECIOS
+              <span
+              className="absolute bg-white rounded-full"
+              style={{
+              width: '130px',
+              height: '130px',
+              left: '-100%',
+              top: '0',
+              transitionDuration: '0.3s',
+              mixBlendMode: 'difference',
+              }}
+             ></span>
+             </button>
+                </Link>
+
+                </p>
+                
+              </div>
+              
             </div>
-            <img className="mx-auto -mt-36 md:-mt-36 h-[250px] w-[330px]" src={rocket.src} alt="Impulsa tu negocio" />
+            
+            </div>
+            
            </div>
            </div>
            </div>
