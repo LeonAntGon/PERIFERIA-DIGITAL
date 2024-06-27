@@ -7,7 +7,7 @@ export default function Contact() {
       <section >
 
 
-        <div className='h-[150px] flex justify-center'>
+        <div className='h-[300px] flex justify-center'>
         <iframe src="https://lottie.host/embed/19e5e41f-55af-4509-9245-ab94b02e1ad9/h1MTodJBqA.json"></iframe> 
         </div>
         
