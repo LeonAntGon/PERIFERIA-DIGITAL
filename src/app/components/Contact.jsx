@@ -1,5 +1,5 @@
 //import Script from 'next/script';
-import world from '@/images/assets/world.mp4'
+
 
 export default function Contact() {
   return (
