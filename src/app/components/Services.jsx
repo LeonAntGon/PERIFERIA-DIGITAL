@@ -20,6 +20,7 @@ export default function Services(){
 
             
             <div className="bg-white text-black">
+
                 <div className="container mx-auto flex flex-col items-start md:flex-row my-4 md:my-14">
                   <div class="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
                   <p class="ml-2 text-black font-semibold uppercase tracking-loose">¿DONDE EMPEZAR?</p>
@@ -101,7 +102,7 @@ export default function Services(){
                 </p>
                 
               </div>
-              <Link href="/proximamente" passHref>
+              <Link href="/proximamente" className={`${setTimeout()}`} passHref>
                 <button
                 className="relative flex items-center justify-center w-[130px] h-10 bg-black text-white font-semibold gap-2 cursor-pointer shadow-[5px_5px_10px_rgba(0,0,0,0.103)] transition duration-300 overflow-hidden"
                 style={{ border: 'none' }}
@@ -152,8 +153,6 @@ export default function Services(){
            </div>
            </div>
           </div>
-
-
 
         </section>
     )
