@@ -102,7 +102,7 @@ export default function Services(){
                 </p>
                 
               </div>
-              <Link href="/proximamente" className={`${setTimeout()}`} passHref>
+              <Link href="/proximamente" passHref>
                 <button
                 className="relative flex items-center justify-center w-[130px] h-10 bg-black text-white font-semibold gap-2 cursor-pointer shadow-[5px_5px_10px_rgba(0,0,0,0.103)] transition duration-300 overflow-hidden"
                 style={{ border: 'none' }}

@@ -1,6 +1,7 @@
 import { Roboto } from "next/font/google"
 import { Saira_Condensed } from "next/font/google"
 import chess from '@/images/assets/chessblue.jpg'
+import rocket from '@/images/assets/rocket_moon.mp4'
 import Services from "./Services"
 
 const robo = Roboto({
@@ -17,7 +18,16 @@ export default function Hero(){
     return(
         <main >
 
-            <section className="flex content-between items-center max-h-[500px]">
+
+            
+            <section className="h-screen relative">
+                <video autoPlay muted loop className="absolute top-0 left-0 w-full h-full object-cover">
+                <source src={rocket} type="video/mp4" />
+            </video>
+            </section>
+            
+            <section></section>
+            {/*<section className="flex content-between items-center max-h-[500px]">
 
                 <div className="w-[40%]">
                     <h1 style={{
@@ -33,7 +43,7 @@ export default function Hero(){
                 <div className="w-[60%]">
                     <img className="w-[100%] h-[100%]" src={chess.src} alt="Hero image"/>
                 </div>
-            </section>
+            </section>*/}
             
 
             <Services />
