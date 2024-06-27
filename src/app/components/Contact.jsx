@@ -1,5 +1,5 @@
 //import Script from 'next/script';
-
+import Whatsapp from './Whatsapp';
 
 export default function Contact() {
   return (
@@ -17,6 +17,7 @@ export default function Contact() {
         
 
       </section>
+      <Whatsapp />
     </main>
   );
 }
