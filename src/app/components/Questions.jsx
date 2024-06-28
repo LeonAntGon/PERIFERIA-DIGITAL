@@ -11,11 +11,11 @@ export default function Questions() {
 
   const web = "Una página web es esencial para establecer presencia online, alcanzar nuevos clientes, brindar información sobre productos/servicios, mejorar la visibilidad y credibilidad de un negocio.";
 
-  const anuncios = "El uso de Facebook Ads impacta positivamente a un negocio al aumentar la visibilidad, llegar a una audiencia específica, generar clientes potenciales y mejorar las ventas."
-
-  const comunity = "El objetivo del Community Manager es construir y gestionar comunidades online, interactuar con la audiencia, fomentar la lealtad de los clientes, aumentar la visibilidad y participación en redes sociales para convertir clientes potenciales."
+  const anuncios = "El uso de anuncios en Instagram y Facebook aumenta significativamente la visibilidad de tu negocio, permitiéndote llegar a una audiencia específica, generar clientes potenciales y mejorar las ventas. Dependiendo de tu negocio, las estrategias de retargeting pueden variar, pero nuestro objetivo principal es potenciar tus publicaciones para maximizar su impacto."
 
   const mensajeria = "Ideal si recibes muchas consultas y buscas ofrecer soporte 24/7; asimismo, permite personalizar la experiencia del cliente y reducir costos."
+
+  const general = "Sí, claro. En el enlace de contacto, encontrarás nuestro número de WhatsApp y un formulario para una asistencia más rápida si lo prefieres 🖥️"
 
   return (
     <section className="mb-[60px]">
@@ -35,17 +35,18 @@ export default function Questions() {
         <p className="text-sm">{web}</p>
       </AccordionItem>
       <AccordionItem className={`[&>h2>button>div>span]:text-[16px] [&>h2>button>div>span]:font-semibold`} 
-      key="2" aria-label="Accordion 2" title="¿Como impacta el uso de Facebook Ads?">
+      key="2" aria-label="Accordion 2" title="¿Como impacta el uso de los anuncios?">
         <p className="text-sm">{anuncios}</p>
-      </AccordionItem>
-      <AccordionItem className={`[&>h2>button>div>span]:text-[16px] [&>h2>button>div>span]:font-semibold`} 
-      key="3" aria-label="Accordion 3" title="¿Cual es el objetivo del comunity manager?">
-        <p className="text-sm">{comunity}</p>
       </AccordionItem>
       <AccordionItem className={`[&>h2>button>div>span]:text-[16px] [&>h2>button>div>span]:font-semibold`} 
       key="4" aria-label="Accordion 3" title="¿Cuando y por qué es recomendable la mensajería automatizada?">
         <p className="text-sm">{mensajeria}</p>
       </AccordionItem>
+      <AccordionItem className={`[&>h2>button>div>span]:text-[16px] [&>h2>button>div>span]:font-semibold`} 
+      key="3" aria-label="Accordion 4" title="¿Puedo contactarles directamente para aclarar mis dudas?">
+        <p className="text-sm">{general}</p>
+      </AccordionItem>
+      
     </Accordion>
     </div>
     </section>
