@@ -41,9 +41,7 @@ export default function App() {
       <NavbarContent className=" pr-3" justify="center">
         <NavbarBrand className="md:mx-auto">
           {/* <AcmeLogo />*/}
-          <Link href="./" className="pointer"><Image style={{
-             mixBlendMode: "multiply",
-          }}src={logo.src} alt="logo" height={60} width={60} />
+          <Link href="./" className="pointer "><Image className="pt-1" src={logo.src} alt="logo" height={60} width={60} />
           <div className="z-10 h-[100%]">
                     {/*<h1 className={`z-20 absolute text-[40px] font-bold font-italic ${saira.className}`}
                     style={{
@@ -53,7 +51,7 @@ export default function App() {
                         backgroundClip: 'text',
                         color: 'transparent',
                     }} >PERIFERA DIGITAL</h1>*/}
-                    <h1 className={`shine z-20 pt-3 ${robo.className}`}
+                    <h1 className={`shine z-20 pt-2 pl-1 ${robo.className}`}
                     style={{
                       backgroundImage: 'linear-gradient(to right, #9bcbf1, #008fff)',
                         WebkitTextStroke: '1px black',
