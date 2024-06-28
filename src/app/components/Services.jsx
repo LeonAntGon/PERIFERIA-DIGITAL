@@ -33,7 +33,7 @@ export default function Services(){
       
                <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
                <div className="container mx-auto w-full h-full">
-               <div className="relative wrap overflow-hidden p-10 h-full">
+               <div className="relative wrap overflow-hidden m-[20px] h-full">
                <div className="border-1 absolute h-full"
                style={{ right: '50%', border: '1px solid #006dfe', borderRadius: '60%' }}></div>
               <div className="border-2 absolute h-full"
