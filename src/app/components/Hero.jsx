@@ -1,8 +1,9 @@
-import { Roboto } from "next/font/google"
-import { Saira_Condensed } from "next/font/google"
-import chess from '@/images/assets/chessblue.jpg'
-import rocket from '@/images/assets/rocket_moon.mp4'
-import Services from "./Services"
+import { Roboto } from "next/font/google";
+import { Saira_Condensed } from "next/font/google";
+import chess from '@/images/assets/chessblue.jpg';
+import rocket from '@/images/assets/rocket_moon.mp4';
+import Services from "./Services";
+
 
 const robo = Roboto({
     weight: "900",
@@ -20,13 +21,17 @@ export default function Hero(){
 
 
             
-            <section className="h-screen relative z-10">
+            <section className="h-screen relative z[-1]">
+                <div>
                 <video autoPlay muted loop className="absolute top-0 left-0 w-full h-full object-cover">
                 <source src={rocket} type="video/mp4" />
-            </video>
+                </video>
+                </div>
+                
+             
             </section>
             
-            <section></section>
+            
             {/*<section className="flex content-between items-center max-h-[500px]">
 
                 <div className="w-[40%]">
