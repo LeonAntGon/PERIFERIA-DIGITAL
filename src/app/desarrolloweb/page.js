@@ -5,7 +5,7 @@ import Footer from '../components/Footer.jsx';
 import Precios from '../components/Precios.jsx';
 
    
-export default function Preciosweb() {
+export default function Desarrolloweb() {
     
     return (
         <>

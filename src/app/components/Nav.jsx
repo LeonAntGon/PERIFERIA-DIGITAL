@@ -1,7 +1,7 @@
 "use client"
 import { Roboto } from "next/font/google";
 import {Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
-import logo from '@/images/assets/logowhitetransparent.png';
+import logo from '@/images/assets/eyelogotransparent.png';
 import Image from "next/image";
 import './styles/shinetitle.css';
 
@@ -11,9 +11,25 @@ const robo = Roboto({
 })
 
 export default function App() {
+  const generateHref = (item) => {
+    switch (item) {
+      case "Inicio":
+        return "./";
+      case "Desarrollo web":
+        return "./desarrolloweb";
+      case "Sistemas de automatización":
+        return "./automatizar";
+      default:
+        return `./${item.toLowerCase().replace(/ /g, "")}`;
+    }
+  };
+
   const menuItems = [
     "Inicio",
     "Trabajos",
+    "Desarrollo web",
+    "Traficker",
+    "Sistemas de automatización",
     "Contacto",
   ];
 
@@ -25,7 +41,9 @@ export default function App() {
       <NavbarContent className=" pr-3" justify="center">
         <NavbarBrand className="md:mx-auto">
           {/* <AcmeLogo />*/}
-          <Link href="./" className="pointer"><Image src={logo.src} alt="logo" height={60} width={60} />
+          <Link href="./" className="pointer"><Image style={{
+             mixBlendMode: "multiply",
+          }}src={logo.src} alt="logo" height={60} width={60} />
           <div className="z-10 h-[100%]">
                     {/*<h1 className={`z-20 absolute text-[40px] font-bold font-italic ${saira.className}`}
                     style={{
@@ -61,7 +79,7 @@ export default function App() {
             <Link
               className="w-full hover:text-blue-500 text-black "
               
-              href={`./${item === "Inicio" ? " " : item.toLowerCase()}`}
+              href={generateHref(item)}
               size="lg">
               {item}
             </Link>

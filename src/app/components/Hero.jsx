@@ -21,7 +21,7 @@ export default function Hero(){
 
 
             
-            <section className="h-screen relative z[-1]">
+            <section className="h-screen relative z[-1] bg-gray-900">
                 <div>
                 <video autoPlay muted loop className="absolute top-0 left-0 w-full h-full object-cover">
                 <source src={rocket} type="video/mp4" />

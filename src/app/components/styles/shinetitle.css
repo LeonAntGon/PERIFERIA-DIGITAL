@@ -11,13 +11,7 @@
         color-stop(0.2, transparent)
       ) 0 0 no-repeat;
     background-image: -webkit-linear-gradient(
-      -40deg,
-      transparent 0%,
-      transparent 40%,
-      white 50%,
-      transparent 60%,
-      transparent 100%
-    );
+      -20deg);
     -webkit-background-clip: text;
     -webkit-background-size: 160px;
     -webkit-animation: zezzz;
