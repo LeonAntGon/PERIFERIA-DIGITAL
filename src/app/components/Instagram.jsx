@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
+import {Link} from "@nextui-org/react";
 //import './styles/Instagram.css';
 
 export default function Instagram() {
   const [hovered, setHovered] = useState(false);
 
   return (
+    <>
+    <Link href="https://www.instagram.com/periferiadigital__">
     <div
       className={`border-gray-700 border-[1px] bg-[#f7f7f8] hover:text-[#E50087] hover:bg-[#FFE5F4] max-w-[23ch] text-center p-[1.5em] rounded-lg relative overflow-hidden transition duration-300 ease-in-out transform flex flex-col justify-center items-center gap-4`}
       style={{
@@ -34,6 +37,9 @@ export default function Instagram() {
         Seguir
       </span>
     </div>
+    </Link>
+    </>
+    
   );
 };
 
