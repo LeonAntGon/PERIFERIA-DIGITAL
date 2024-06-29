@@ -22,7 +22,7 @@ export default function Instagram() {
         </svg>
       </div>
       <strong
-        className={`block font-[1.4rem] ${hovered ? 'opacity-0' : 'opacity-100'}`}
+        className={`block font-[1.4rem] text-black ${hovered ? 'opacity-0' : 'opacity-100'}`}
         style={{ letterSpacing: "-.035em" }}
       >
         Instagram
