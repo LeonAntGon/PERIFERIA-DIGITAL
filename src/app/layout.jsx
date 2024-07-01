@@ -11,7 +11,7 @@ export const metadata = {
     { property: 'og:site_name', content: 'Periferia digital' },
     { property: 'og:title', content: 'Periferia Digital' },
     { property: 'og:description', content: 'Una perspectiva digital para escalar tu negocio!' },
-    { property: 'og:image', itemprop: 'image', content: 'https://github.com/LeonAntGon/PERIFERIA-DIGITAL/blob/main/src/app/opengraph-image.jpg' },
+    { property: 'og:image', itemprop: 'image', content: 'https://drive.google.com/file/d/1UFr-U158IkZ3DBfTmYyiBtdVuMljKGZj/view?usp=drive_link' },
     { property: 'og:type', content: 'website' },
     { property: 'og:updated_time', content: '1440432930' },
   ],
