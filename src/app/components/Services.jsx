@@ -45,7 +45,7 @@ export default function Services(){
                 <p className="text-sm md:text-base leading-snug text-gray-900 text-opacity-100">
                 Desarrollo web a medida con diseño atractivo y adaptable dispositivo, desde móviles hasta pantallas grandes.
                 </p>
-                <p className="text-sm font-semibold mb-4">E-commerce | Catálogo | Portafolio | Landing | </p>
+                <p className="text-sm font-semibold mb-4">Tiendas | Autogestión | Portafolio | Landing | </p>
                 <Link href="/desarrolloweb" passHref>
                 <button
                 className="relative flex items-center justify-center w-[130px] h-10 bg-black text-white font-semibold gap-2 cursor-pointer shadow-[5px_5px_10px_rgba(0,0,0,0.103)] transition duration-300 overflow-hidden"
@@ -67,7 +67,7 @@ export default function Services(){
                 e.currentTarget.style.transform = '';
                 }}
                 >
-               VER PRECIOS
+               SABER MÁS
               <span
               className="absolute bg-white rounded-full"
               style={{
@@ -87,7 +87,7 @@ export default function Services(){
               <div className="mb-8 flex justify-between items-center w-full right-timeline">
               <div className="order-1 w-5/12"></div>
               <div className="order-1 w-5/12 px-1 py-4">
-                <h4 className={`mb-3 font-bold text-lg md:text-xl ${mont.className}`}>Trafficker Digital</h4>
+                <h4 className={`mb-3 font-bold text-lg md:text-xl ${mont.className}`}>Anuncios en redes</h4>
                 <p className="text-sm md:text-base leading-snug text-gray-900 text-opacity-100">
                 Maximiza las probabilidades de venta asegurando que tu contenido llegue a la audiencia correcta mediante anuncios estrategicos.</p>
                 <p className="text-sm font-semibold mb-4">Instagram Ads | Facebook Ads </p>
@@ -112,7 +112,7 @@ export default function Services(){
                 e.currentTarget.style.transform = '';
                 }}
                 >
-               VER PRECIOS
+               SABER MÁS
               <span
               className="absolute bg-white rounded-full"
               style={{
@@ -159,7 +159,7 @@ export default function Services(){
                 e.currentTarget.style.transform = '';
                 }}
                 >
-               VER PRECIOS
+               SABER MÁS
               <span
               className="absolute bg-white rounded-full"
               style={{

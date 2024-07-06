@@ -1,32 +1,22 @@
 import { Roboto } from "next/font/google";
 import { Saira_Condensed } from "next/font/google";
-import chess from '@/images/assets/chessblue.jpg';
 import rocket from '@/images/assets/rocket_moon.mp4';
 import Services from "./Services";
 
-
-const robo = Roboto({
-    weight: "900",
-    subsets:['latin'],
-  })
-
 const saira = Saira_Condensed({
-    weight: "800",
+    weight: "700",
     subsets:['latin'],
   })
+  
 
-export default function Hero(){
-    return(
-        <main >
+export default function Hero() {
+  return (
+    <main>
 
-
-            
-            <section className="h-screen relative z[-1] bg-gray-900 ">
-                <div>
+      <section className="h-[350px] md:h-[470px] relative bg-gray-900 ">
                     <video autoPlay muted loop eager className="absolute top-0 left-0 w-full h-full object-cover">
                     <source src={rocket} type="video/mp4" />
                 </video>
-                </div>
                 
              
             </section>
