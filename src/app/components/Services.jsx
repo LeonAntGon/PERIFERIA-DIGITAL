@@ -45,7 +45,7 @@ export default function Services(){
                 <p className="text-sm md:text-base leading-snug text-gray-900 text-opacity-100">
                 Desarrollo web a medida con diseño atractivo y adaptable dispositivo, desde móviles hasta pantallas grandes.
                 </p>
-                <p className="text-sm font-semibold mb-4">Tiendas | Autogestión | Portafolio | Landing | </p>
+                <p className="text-sm font-semibold mb-4">Tiendas | Portafolio | Landing | Empresariales | </p>
                 <Link href="/desarrolloweb" passHref>
                 <button
                 className="relative flex items-center justify-center w-[130px] h-10 bg-black text-white font-semibold gap-2 cursor-pointer shadow-[5px_5px_10px_rgba(0,0,0,0.103)] transition duration-300 overflow-hidden"
@@ -67,7 +67,7 @@ export default function Services(){
                 e.currentTarget.style.transform = '';
                 }}
                 >
-               SABER MÁS
+               VER PLANES
               <span
               className="absolute bg-white rounded-full"
               style={{
@@ -112,7 +112,7 @@ export default function Services(){
                 e.currentTarget.style.transform = '';
                 }}
                 >
-               SABER MÁS
+               VER PLANES
               <span
               className="absolute bg-white rounded-full"
               style={{
@@ -159,7 +159,7 @@ export default function Services(){
                 e.currentTarget.style.transform = '';
                 }}
                 >
-               SABER MÁS
+               VER PLANES
               <span
               className="absolute bg-white rounded-full"
               style={{
