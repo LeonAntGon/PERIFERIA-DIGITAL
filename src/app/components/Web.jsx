@@ -3,24 +3,21 @@
 export default function Web(){
     return(
         <main>
-            <section>
-            <h1>Desarrollo de páginas web para <br></br>Tienda online</h1>
-            <p>¿Querés tener un sitio para vender de forma online, o necesitas un catálogo profesional que muestre tus productos o servicios? </p>
 
-            {/*Pone una imagen hdp  */}
+            <section className="mt-[40px]">
+            <h1 className="font-semibold text-2xl text-center">Planes de <span className="text-blue-400">Diseño & Desarrollo Web</span></h1>
+            <p>Elegí el tipo de página web que mejor se adapte a tu negocio </p>
 
             </section>
 
             <section>
-
-                <h2>¿Cómo se compone el Diseño de una Página Web para Tiendas Online?</h2>
-
-                <p>Contamos con dos opciones; Catálogo profesional & Tienda online.</p>
-                <p>A continuación están las características de cada uno:</p>
-            </section>
-
-            <section>
-                <div></div>
+            <div class="card">
+                <div class="card-details">
+                <p class="text-title">Card title</p>
+                <p class="text-body">Here are the details of the card</p>
+                </div>
+                <button class="card-button">More info</button>
+                </div>
                 <div></div>
             </section>
             
