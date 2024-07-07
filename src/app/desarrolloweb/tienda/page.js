@@ -12,14 +12,14 @@ export default function Tienda(){
         <Nav/>
 
         <main>
-            <section className="mt-6 mx-8 flex flex-wrap lg:flex-nowrap">
-                <div className=" mt-[100px] h-[200px] lg:h-350px">
+            <section className="mt-5 mx-8 flex flex-wrap lg:flex-nowrap">
+                <div className=" mt-[85px] h-[200px] lg:h-350px">
                 <h1 className="  text-center text-[28px] font-semibold ">Diseño de páginas web para <span className="text-blue-500">Tiendas online & Catálogos </span></h1>
                 <p className="text-center mt-6">¿Querés tener un sitio para vender de forma online, o necesitas un catálogo profesional que muestre tus productos o servicios? Esta es la mejor opción. </p>
                 </div>
 
-                <div className="mt-[50px] lg:mt-0">
-                <Image className=" max-w-[600px] w-[100%]" src={heroimg} alt="" />
+                <div className="">
+                <Image className=" mt-[90px] lg:mt-0 max-w-[600px] w-[100%]" src={heroimg} alt="" />
                 </div>
             
 
@@ -40,7 +40,7 @@ export default function Tienda(){
                 
             </section>
 
-            <section className=" flex flex-wrap [&>div>h3]:flex ml-[45px] my-[50px] [&>div>h3]:items-center [&>div>h3]:mt-2 [&>div>h3>svg]:bg-blue-200 [&>div>h3>svg]:rounded-lg
+            <section className=" flex flex-wrap [&>div>h3]:flex mx-[45px] my-[50px] [&>div>h3]:items-center [&>div>h3]:mt-2 [&>div>h3>svg]:bg-blue-200 [&>div>h3>svg]:rounded-lg
             [&>div>h3>svg]:mr-3">
 
                 <div>
@@ -137,9 +137,8 @@ export default function Tienda(){
                         <p className="font-semibold text-[18px]"> $10.000</p>
                     </div>
 
-                    <div className="mt-6 bg-blue-300 text-center h-[44px] rounded-b-lg">
+                    <div className="mt-6 bg-blue-300 text-center h-[45px] rounded-b-lg">
                         <p className="font-bold text-[16px] pt-3 ">Dominio por un año</p>
-             
                     </div>
 
                     </div>
