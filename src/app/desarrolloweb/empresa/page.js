@@ -130,12 +130,12 @@ export default function Tienda(){
 
                     <div className="my-6 bg-[#edf5ff] text-center py-2">
                         <p className="font-bold text-[16px]">Desarrollo Web</p>
-                        <p className="font-semibold text-[18px]"> $90.000</p>
+                        <p className="font-semibold text-[18px]"> $150.000</p>
                     </div>
 
                     <div className="my-6 bg-[#edf5ff] text-center py-2">
                         <p className="font-bold text-[16px]">Abono mensual</p>
-                        <p className="font-semibold text-[18px]"> $10.000</p>
+                        <p className="font-semibold text-[18px]"> $18.000</p>
                     </div>
 
                     <div className="mt-6 bg-blue-200 text-center h-[46px] rounded-b-lg">
