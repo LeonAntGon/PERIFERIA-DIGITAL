@@ -14,7 +14,7 @@ export default function Tienda(){
         <main>
             <section className="mt-5 flex flex-wrap justify-center lg:justify-between lg:flex-nowrap">
                 <div className=" mx-8 mt-[85px] h-[200px] lg:h-350px">
-                <h1 className="  text-center text-[28px] font-semibold ">Diseño de páginas web para <span className="text-blue-500">empresas</span></h1>
+                <h1 className="  text-center text-[28px] font-semibold ">Diseño de páginas web para <span className="text-blue-500">Empresas</span></h1>
                 <p className="text-center mt-6">¿Sos emprendedor o tenés tu negocio y necesitas presencia online? Podemos ayudarte.</p>
                 </div>
 
