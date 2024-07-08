@@ -42,7 +42,7 @@ export default function Tienda(){
             <section className=" flex flex-wrap [&>div>h3]:flex mx-[45px] my-[50px] [&>div>h3]:items-center [&>div>h3]:mt-2 [&>div>h3>svg]:bg-blue-200 [&>div>h3>svg]:rounded-lg
             [&>div>h3>span]:ml-3">
 
-                <div className="ml-[40px]">
+                <div className="ml-[15px] lg:ml-[40px]">
 
                 <h3>
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brush" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -63,7 +63,7 @@ export default function Tienda(){
 
                 <h3>
                 <svg width="30px" height="30px" stroke-width="1.2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M21 3.6V20.4C21 20.7314 20.7314 21 20.4 21H3.6C3.26863 21 3 20.7314 3 20.4V3.6C3 3.26863 3.26863 3 3.6 3H20.4C20.7314 3 21 3.26863 21 3.6Z" stroke="#000000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 16L10 13L21 18" stroke="#000000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16 10C14.8954 10 14 9.10457 14 8C14 6.89543 14.8954 6 16 6C17.1046 6 18 6.89543 18 8C18 9.10457 17.1046 10 16 10Z" stroke="#000000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-                <span>Contenido que quieras mostrar (textos/imágenes/videos)</span>
+                <span>Contenido que quieras mostrar (textos/imágenes)</span>
                 </h3>
 
                 <h3>
@@ -87,7 +87,7 @@ export default function Tienda(){
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M20.945 11a9 9 0 1 1 -3.284 -5.997l-2.655 2.392a5.5 5.5 0 1 0 2.119 6.605h-4.125v-3h7.945z" />
                 </svg>
-                <span>Optimización para posicionamiento en Google</span>
+                <span>Optimización para Google</span>
                 </h3>
 
                 <h3>
