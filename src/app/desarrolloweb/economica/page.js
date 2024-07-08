@@ -14,7 +14,7 @@ export default function Tienda(){
         <main>
             <section className="mt-5 flex flex-wrap justify-center lg:justify-between lg:flex-nowrap">
                 <div className=" mx-8 mt-[85px] h-[200px] lg:h-350px">
-                <h1 className="  text-center text-[28px] font-semibold ">Diseño de páginas web para <span className="text-blue-500">económica</span></h1>
+                <h1 className="  text-center text-[28px] font-semibold ">Diseño de páginas web <span className="text-blue-500">económica</span></h1>
                 <p className="text-center mt-6">¿Sos emprendedor o tenés tu negocio y necesitas presencia online? Podemos ayudarte.</p>
                 </div>
 
@@ -30,7 +30,7 @@ export default function Tienda(){
             <section className="mt-[75px] mx-8  ">
 
                 <div>
-                <h2 className="text-center text-xl font-semibold">¿Cómo se compone el <span className="text-blue-500">Diseño de una Página Web para Tiendas Online?</span></h2>
+                <h2 className="text-center text-xl font-semibold">¿Cómo se compone el <span className="text-blue-500">Diseño de una Página Web para Emprendedores?</span></h2>
 
                 <p className="text-center my-[30px]">
                 Es un sitio web con secciones internas y una plataforma integrada para vender tus servicios/productos y generar ingresos sin comisiones.

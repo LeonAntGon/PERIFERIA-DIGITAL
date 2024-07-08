@@ -14,13 +14,13 @@ export default function App() {
   const generateHref = (item) => {
     switch (item) {
       case "Inicio":
-        return "./";
+        return "/";
       case "Desarrollo web":
-        return "./desarrolloweb";
+        return "/desarrolloweb";
       case "Sistemas de automatización":
-        return "./automatizar";
+        return "/automatizar";
       default:
-        return `./${item.toLowerCase().replace(/ /g, "")}`;
+        return `/${item.toLowerCase().replace(/ /g, "")}`;
     }
   };
 
