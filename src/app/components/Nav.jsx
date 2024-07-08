@@ -28,7 +28,7 @@ export default function App() {
     "Inicio",
     "Trabajos",
     "Desarrollo web",
-    "Traficker",
+    "Anuncios",
     "Sistemas de automatización",
     "Contacto",
   ];

@@ -24,7 +24,7 @@ export default function Web(){
                 <div class="carta-details ">
                 <Image src={entrepeneur} alt="emprendedor" className="h-[80px] mx-auto" />
                 <h2 class="text-center font-semibold">Página Web para emprendedores</h2>
-                <p class="text-[#868686] text-sm text-center">Web económica & profesional</p>
+                <p class="text-[#868686] text-sm text-center">Web económica</p>
                 </div>
                 <button class="carta-button">SABER MÁS</button>
                 </div>
@@ -47,7 +47,7 @@ export default function Web(){
                 <div class="carta-details">
                 <Image src={company} alt="empresa" className="h-[80px] mt-2 mx-auto" />
                 <h3 class="text-center font-semibold">Página Web para Empresas</h3>
-                <p class="text-[#868686] text-sm text-center">Diseño gráfico & profesional & más </p>
+                <p class="text-[#868686] text-sm text-center">Diseño profesional y más </p>
                 </div>
                 <button class="carta-button">SABER MÁS</button>
                 </div>

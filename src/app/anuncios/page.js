@@ -1,6 +1,6 @@
 import Proximamente from "../proximamente/page";
 
-export default function Traficker(){
+export default function Anuncios(){
     return(
         <>
         <Proximamente/>
