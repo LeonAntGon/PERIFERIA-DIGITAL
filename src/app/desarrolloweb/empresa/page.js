@@ -2,7 +2,7 @@
 import Nav from "../../components/Nav.jsx";
 import Mensual from "../../components/Mensual.jsx";
 import Footer from "../../components/Footer.jsx";
-import heroimg from '@/images/assets/epic-imgs/entrepeneur.svg';
+import heroimg from '@/images/assets/epic-imgs/company.svg';
 import Image from "next/image.js";
 
 export default function Tienda(){
@@ -14,12 +14,12 @@ export default function Tienda(){
         <main>
             <section className="mt-5 flex flex-wrap justify-center lg:justify-between lg:flex-nowrap">
                 <div className=" mx-8 mt-[85px] h-[200px] lg:h-350px">
-                <h1 className="  text-center text-[28px] font-semibold ">Diseño de páginas web para <span className="text-blue-500">económica</span></h1>
+                <h1 className="  text-center text-[28px] font-semibold ">Diseño de páginas web para <span className="text-blue-500">empresas</span></h1>
                 <p className="text-center mt-6">¿Sos emprendedor o tenés tu negocio y necesitas presencia online? Podemos ayudarte.</p>
                 </div>
 
                 <div className="">
-                <Image className="md:mt-[80px] mt-[60px]   max-w-[700px] w-[100%]" src={heroimg} alt="" />
+                <Image className="md:mt-[60px] mt-[60px]   max-w-[600px] w-[100%]" src={heroimg} alt="" />
                 </div>
             
 
