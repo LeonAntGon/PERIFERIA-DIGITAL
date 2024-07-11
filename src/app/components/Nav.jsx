@@ -26,7 +26,6 @@ export default function App() {
 
   const menuItems = [
     "Inicio",
-    "Trabajos",
     "Desarrollo web",
     "Anuncios",
     "Sistemas de automatización",

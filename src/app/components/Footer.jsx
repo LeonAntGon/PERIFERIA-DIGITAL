@@ -9,20 +9,6 @@ export default function Footer() {
         &copy; 2024 PERIFERIA DIGITAL
       </Typography>
       <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
-        <li>
-          <Typography
-            color="blue-gray"
-            className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
-          >
-        
-         
-        
-            <Link href="/trabajos">
-            Trabajos
-            </Link>
-            
-          </Typography>
-        </li>
         
        
         <li>
