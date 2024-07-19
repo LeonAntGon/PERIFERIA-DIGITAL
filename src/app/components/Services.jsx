@@ -91,7 +91,7 @@ export default function Services(){
                 <p className="text-sm md:text-base leading-snug text-gray-900 text-opacity-100">
                 Maximiza las probabilidades de venta asegurando que tu contenido llegue a la audiencia correcta mediante anuncios estrategicos.</p>
                 <p className="text-sm font-semibold mb-4">Instagram Ads | Facebook Ads </p>
-                <Link href="/proximamente" passHref>
+                <Link href="/anuncios" passHref>
                 <button
                 className="mt-4 relative flex items-center justify-center w-[130px] h-10 bg-black text-white font-semibold gap-2 cursor-pointer shadow-[5px_5px_10px_rgba(0,0,0,0.103)] transition duration-300 overflow-hidden"
                 style={{ border: 'none' }}

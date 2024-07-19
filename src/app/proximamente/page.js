@@ -1,6 +1,5 @@
 "use client"
 import Nav from '../components/Nav';
-
 import Footer from '../components/Footer';
 import '../components/styles/proxeye.css';
 import '../components/styles/proxloading.css';
