@@ -15,8 +15,8 @@ export default function Heroads(){
             }}
             >
                 <div className="mt-[160px]">
-                    <span className='mt-[20px] font-semibold text-center text-white text-[1rem]'>Gana presencia online</span>
-                    <h1 className='text-center text-white font-bold text-[2rem]'>
+                    <span className='mt-[20px] font-semibold mx-auto text-white text-[1rem]'>Gana presencia online</span>
+                    <h1 className='text-center text-white font-bold text-[1.8rem]'>
                         INSTAGRAM & FACEBOOK ADS
                     </h1>
                 </div>
@@ -56,6 +56,18 @@ export default function Heroads(){
                 </a>   
                 
                 </div>
+            </section>
+            <section className='mx-6 md:mx-[40px]'>
+                <artile>
+                    <h2 className='text-center md:text-left text-[1.2rem] font-semibold'>¿Por qué necesita tu negocio servicios de Instagram y Facebook Ads?</h2>
+                    <section>
+                        <div>
+                            <p>Los servicios de Instagram y Facebook Ads son fundamentales para cualquier negocio que busque mejorar su presencia en línea y alcanzar sus objetivos de marketing. Estas plataformas ofrecen una segmentación precisa, permitiendo que tus anuncios lleguen a audiencias específicas basadas en intereses y ubicación. Con un alcance global masivo y la capacidad de generar leads y ventas directas, estos anuncios optimizan tus inversiones publicitarias. Además, proporcionan herramientas analíticas detalladas para medir el rendimiento y ajustar estrategias en tiempo real. Con opciones creativas y formatos diversos, Instagram y Facebook Ads te ayudan a aumentar la visibilidad de tu marca y a interactuar directamente con tu audiencia, manteniéndote competitivo en el mercado digital actual.</p>
+                        </div>
+                        <div></div>
+                    </section>
+                    
+                </artile>
             </section>
         </main>
         </>
