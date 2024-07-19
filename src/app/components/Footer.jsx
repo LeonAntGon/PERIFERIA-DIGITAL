@@ -1,6 +1,7 @@
 import { Typography } from "@material-tailwind/react";
 import Link from "next/link";
 import Instagram from "./Instagram";
+import Facebook from "./Facebook"
 export default function Footer() {
   return (
     <footer className=" flex w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 border-t border-blue-gray-50 py-6 text-center md:justify-evenly">
@@ -21,10 +22,11 @@ export default function Footer() {
           </Typography>
         </li>
       </ul>
-      <div className="flex justify-center my-4">
+      <div className="flex gap-x-4 my-4">
 
         
       <Instagram/>
+      <Facebook />
       </div>
     </footer>
   );
