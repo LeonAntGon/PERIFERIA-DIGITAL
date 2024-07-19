@@ -14,7 +14,7 @@ export default function Heroads(){
             //filter: "brightness(60%)",
             }}
             >
-                <div className="mt-[160px]">
+                <div className="mt-[160px] mx-4">
                     <span className='mt-[20px] font-semibold mx-auto text-white text-[1rem]'>Gana presencia online</span>
                     <h1 className='text-center text-white font-bold text-[1.8rem]'>
                         INSTAGRAM & FACEBOOK ADS
