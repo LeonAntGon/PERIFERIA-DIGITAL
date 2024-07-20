@@ -2,6 +2,7 @@ import secAdsImage from '@/images/assets/secads-2.jpg';
 import FacebookSP from '@/images/assets/facebookInSmarthPhone.jpg';
 import Image from 'next/image';
 
+
 export default function Heroads(){
     return(
         <>
@@ -60,11 +61,11 @@ export default function Heroads(){
                 </div>
             </section>
 
-            <section className='mx-6 md:mx-[40px] py-[40px]'>
-                <artile className="">
+            
+                <artile className=" py-[40px]">
                     <p className='text-[#54595F] text-center font-medium my-4'>Lleva tu marca al siguiente nivel</p>
-                    <h2 className='text-center md:text-left text-[1.2rem] font-semibold mb-6'>¿Por qué necesitarias servicios de <span className='text-blue-500'>Facebook & Instagram Ads?</span></h2>
-                    <section className='flex flex-wrap justify-center lg:grid lg:grid-cols-2'>
+                    <h2 className='text-center md:text-left text-[1.2rem] font-semibold mb-6 ml-4 md:ml-[30px]'>¿Por qué necesitarias servicios de <span className='text-blue-500'>Facebook & Instagram Ads?</span></h2>
+                    <section className='flex flex-wrap justify-center lg:grid lg:grid-cols-2 mx-4 md:mx-[30px]'>
                         <div className="lg:mr-8 lg:mt-8">
                             <p className={`my-2 text-[1rem] text-[#54595F]`}>Los servicios de Instagram y Facebook Ads son fundamentales para cualquier negocio que busque mejorar su presencia en línea y alcanzar sus objetivos de marketing.</p>
                             <p className={`my-5 text-[1rem] text-[#54595F]`}>Estas plataformas ofrecen una segmentación precisa, permitiendo que tus anuncios lleguen a audiencias específicas basadas en intereses y ubicación. Con un alcance global masivo y la capacidad de generar leads y ventas directas, estos anuncios optimizan tus inversiones publicitarias. Además, proporcionan herramientas analíticas detalladas para medir el rendimiento y ajustar estrategias en tiempo real. </p>
@@ -78,6 +79,19 @@ export default function Heroads(){
                     </section>
                     
                 </artile>
+            
+            <section className="flex items-center justify-center bg-[#ebf0f9] w-full h-[80px] my-[70px]">
+                <div className='pb-5'>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-quote" width="42" height="42" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M10 11h-4a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v6c0 2.667 -1.333 4.333 -4 5" />
+                    <path d="M19 11h-4a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v6c0 2.667 -1.333 4.333 -4 5" />
+                    </svg>
+                </div>
+                <div>
+                    <p className='font-raleway text-md font-semibold '>"Si tu negocio no está en Internet, tu negocio no existe" - Bill Gates.</p>
+                </div>
+                
             </section>
         </main>
         </>
