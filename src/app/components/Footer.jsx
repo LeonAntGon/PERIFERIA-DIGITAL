@@ -22,7 +22,7 @@ export default function Footer() {
           </Typography>
         </li>
       </ul>
-      <div className="flex gap-x-4 my-4">
+      <div className="flex mx-2 gap-x-4 my-4">
 
         
       <Instagram/>
