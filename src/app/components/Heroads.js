@@ -64,7 +64,7 @@ export default function Heroads(){
             
                 <artile className=" py-[40px]">
                     <p className='text-[#54595F] text-center font-medium my-4'>Lleva tu marca al siguiente nivel</p>
-                    <h2 className='text-center md:text-left text-[1.2rem] font-semibold mb-6 ml-4 md:ml-[30px]'>¿Por qué necesitarias servicios de <span className='text-blue-500'>Facebook & Instagram Ads?</span></h2>
+                    <h2 className='text-center md:text-left text-[1.2rem] font-semibold mb-6 ml-4 md:mx-[30px]'>¿Por qué necesitarias servicios de <span className='text-blue-500'>Facebook & Instagram Ads?</span></h2>
                     <section className='flex flex-wrap justify-center lg:grid lg:grid-cols-2 mx-4 md:mx-[30px]'>
                         <div className="lg:mr-8 lg:mt-8">
                             <p className={`my-2 text-[1rem] text-[#54595F]`}>Los servicios de Instagram y Facebook Ads son fundamentales para cualquier negocio que busque mejorar su presencia en línea y alcanzar sus objetivos de marketing.</p>
