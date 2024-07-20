@@ -89,7 +89,7 @@ export default function Heroads(){
                     </svg>
                 </div>
                 <div>
-                <p className='font-raleway text-xs md:text-md font-semibold '>&quot;Si tu negocio no está en Internet, tu negocio no existe.&quot; - Bill Gates</p>
+                <p className='font-raleway text-xs md:text-md font-semibold '>&quot;Si tu negocio no está en Internet, tu negocio no existe.&quot; <br></br> Bill Gates</p>
 
                 </div>
                 
