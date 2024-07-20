@@ -5,6 +5,7 @@ import Footer from '../components/Footer.jsx';
 import toledo from '@/images/capturas/toledo.png'
 import male from '@/images/capturas/malemoda.png'
 import milena from '@/images/capturas/milenaindumentaria.png'
+import Image from 'next/image.js';
 
 
 
@@ -28,7 +29,7 @@ export default function Trabajos(){
                 <div className={`inline-block min-w-13 min-h-13 max-w-[290px] max-h-[540px]
                 rounded-lg my-5`} key={index}>
                 <div className="w-[275px] h-[368px] mx-2 mt-3">
-                    <img className="w-full h-full rounded-lg" src={img.src} alt="" />
+                    <Image className="w-full h-full rounded-lg" src={img.src} alt="" />
                 </div>
                 <div className="mx-2">
                     <h2 className={`text-center font-semibold `}>{titles[index]}</h2>
@@ -42,5 +43,5 @@ export default function Trabajos(){
 
         <Footer />
         </>
-    )
-}
+    );
+};
