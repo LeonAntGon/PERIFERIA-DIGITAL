@@ -14,6 +14,7 @@ export default function Heroads(){
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+            maskImage: 'linear-gradient(black 95%, transparent)',
             //filter: "brightness(60%)",
             }}
             >

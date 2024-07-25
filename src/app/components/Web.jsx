@@ -5,7 +5,7 @@ import shop from "@/images/assets/icons/shop.png";
 import company from "@/images/assets/icons/company.png";
 import Image from "next/image";
 import Link from "next/link";
-import heroimg from '@/images/assets/web-hero.jpg';
+import heroimg from '@/images/assets/web-hero-optimized.jpg';
 import TypewriterWeb from "./animations/TypewriterWeb";
 
 export default function Web(){
@@ -19,6 +19,7 @@ export default function Web(){
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+            maskImage: 'linear-gradient(black 95%, transparent)',
             //filter: "brightness(60%)",
             }}
             >
