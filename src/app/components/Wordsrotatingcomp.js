@@ -25,7 +25,7 @@ const WordsRotating = () => {
           transition={{ duration: 0.5 }}
           className="absolute inset-0 flex items-center justify-center"
         >
-          <span className="text-xl pt-2 font-bold">{words[index]}</span>
+          <span className="text-md pt-2 font-bold">{words[index]}</span>
         </motion.div>
       </AnimatePresence>
     </div>
@@ -35,7 +35,8 @@ const WordsRotating = () => {
 export default function WordsRotatingComp() {
   return (
     <div className="text-center py-8">
-      <h2 className='text-gray-200 text-center font-semibold'>Potencia tus ventas con nuestros servicios <br></br>
+      <h2 className='text-gray-200 text-center font-semibold'>Potenciamos tu presencia online, alcance en redes y manejo de procesos con nuestros 
+        <span className='text-blue-300'> servicios digitales:</span> <br></br>
       <span className='text-blue-400'><WordsRotating /></span></h2>
     </div>
   );

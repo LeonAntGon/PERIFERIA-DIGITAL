@@ -1,5 +1,4 @@
 import { Montserrat } from "next/font/google";
-import rocket from "@/images/assets/rocketenh.png";
 import Link from "next/link";
 
 const mont = Montserrat({

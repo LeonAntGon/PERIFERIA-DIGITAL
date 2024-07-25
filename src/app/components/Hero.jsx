@@ -41,7 +41,11 @@ export default function Hero() {
   return (
     <main>
 
-      <section className="h-[550px] flex flex-col items-center">
+      <section className="h-[550px] flex flex-col items-center"
+      style={{
+            maskImage: 'linear-gradient(to bottom, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0) 100%)',
+            maskSize: '100% 100%'
+      }}>
         <div className="mt-[120px] mx-4">
             <Drawing/>
             <WordsRotatingComp/>
