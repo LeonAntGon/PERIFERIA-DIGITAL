@@ -18,14 +18,14 @@ export default function Heroads(){
             }}
             >
                 <div className="mt-[120px] mx-4">
-                    <p className='mt-[16px] mb-[16px] font-semibold text-center text-[#bfbfbf] text-[1rem]'>Gana presencia online</p>
+                    <p className='mt-[16px] mb-[16px] font-semibold text-center text-[#bfbfbf] text-[1rem]'>Impulsa tus redes sociales</p>
                     <h1 className='text-center text-white font-bold text-[1.4rem]'>
                         INSTAGRAM & FACEBOOK ADS
                     </h1>
                 </div>
                 <div className="mt-[60px]">
                 <a 
-                 href="https://api.whatsapp.com/send?phone=5493816090708">
+                 href="https://api.whatsapp.com/send?phone=5493813380751">
                 <button
                 style={{filter: "brightness(100%)"}}
                 className="relative inline-flex h-12 active:scale-95 transition overflow-hidden rounded-lg p-[1px] focus:outline-none"
@@ -56,7 +56,8 @@ export default function Heroads(){
                 </svg>
                 </span>
                </button>
-                </a>   
+                </a>
+   
                 
                 </div>
             </section>
@@ -64,12 +65,12 @@ export default function Heroads(){
             
                 <artile className=" py-[40px]">
                     <p className='text-[#54595F] text-center font-medium my-4'>Lleva tu marca al siguiente nivel</p>
-                    <h2 className='text-center md:text-left text-[1.2rem] font-semibold mb-6 ml-4 mx-4 md:mx-[30px]'>¿Por qué necesitarias servicios de <span className='text-blue-500'>Facebook & Instagram Ads?</span></h2>
+                    <h2 className='text-center md:text-left text-[1.2rem] font-semibold mb-6 ml-4 mx-8 md:mx-[30px]'>¿Por qué necesitarias servicios de <span className='text-blue-500'>Facebook & Instagram Ads?</span></h2>
                     <section className='flex flex-wrap justify-center lg:grid lg:grid-cols-2 mx-4 md:mx-[30px]'>
-                        <div className="lg:mr-8 lg:mt-8">
-                            <p className={`my-2 text-[1rem] text-[#54595F]`}>Los servicios de Instagram y Facebook Ads son fundamentales para cualquier negocio que busque mejorar su presencia en línea y alcanzar sus objetivos de marketing.</p>
-                            <p className={`my-5 text-[1rem] text-[#54595F]`}>Estas plataformas ofrecen una segmentación precisa, permitiendo que tus anuncios lleguen a audiencias específicas basadas en intereses y ubicación. Con un alcance global masivo y la capacidad de generar leads y ventas directas, estos anuncios optimizan tus inversiones publicitarias. Además, proporcionan herramientas analíticas detalladas para medir el rendimiento y ajustar estrategias en tiempo real. </p>
-                            <p className={`my-5 text-[1rem] text-[#54595F]`}>Con opciones creativas y formatos diversos, Instagram y Facebook Ads te ayudan a aumentar la visibilidad de tu marca y a interactuar directamente con tu audiencia, manteniéndote competitivo en el mercado digital actual.</p>
+                        <div className="mx-8 md:mx-0 lg:mr-8 lg:mt-8">
+                            <p className={`my-4 text-[1rem] text-[#54595F]`}>Los servicios de Instagram y Facebook Ads son fundamentales para cualquier negocio que busque mejorar su presencia en línea y alcanzar sus objetivos de marketing.</p>
+                            <p className={`my-6 text-[1rem] text-[#54595F]`}>Estas plataformas ofrecen una segmentación precisa, permitiendo que tus anuncios lleguen a audiencias específicas basadas en intereses y ubicación. Con un alcance global masivo y la capacidad de generar leads y ventas directas, estos anuncios optimizan tus inversiones publicitarias. Además, proporcionan herramientas analíticas detalladas para medir el rendimiento y ajustar estrategias en tiempo real. </p>
+                            <p className={`my-6 text-[1rem] text-[#54595F]`}>Con opciones creativas y formatos diversos, Instagram y Facebook Ads te ayudan a aumentar la visibilidad de tu marca y a interactuar directamente con tu audiencia, manteniéndote competitivo en el mercado digital actual.</p>
                         </div>
                         <div className='max-w-[512px] max-h-[480px] flex justify-center items-center'>
                             

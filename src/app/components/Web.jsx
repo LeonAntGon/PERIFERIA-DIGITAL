@@ -5,18 +5,69 @@ import shop from "@/images/assets/icons/shop.png";
 import company from "@/images/assets/icons/company.png";
 import Image from "next/image";
 import Link from "next/link";
-import { LinkIcon } from "@nextui-org/react";
+import heroimg from '@/images/assets/web-hero.jpg';
+import TypewriterWeb from "./animations/TypewriterWeb";
 
 export default function Web(){
     return(
         <main>
 
-            <section className="mt-[40px]">
-            <h1 className="font-semibold text-2xl text-center">Planes de <span className="text-blue-500">Diseño & Desarrollo Web</span></h1>
-            <p className="text-center my-8 text-md">Elegí el tipo de <span className="font-semibold">página web que mejor se adapte a tu negocio </span></p>
-
+            <section
+            className="h-[450px] md:h-[520px] flex flex-col items-center"
+            style={{ backgroundImage: `url(${heroimg.src})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+            //filter: "brightness(60%)",
+            }}
+            >
+                <div className="mt-[120px] mx-4">
+                    <p className='mt-[16px] mb-[16px] font-semibold text-center text-[#bfbfbf] text-[1rem]'>Gana presencia online</p>
+                    <h1 className='text-center text-white font-bold text-[1.4rem]'>
+                        <TypewriterWeb/>
+                    </h1>
+                </div>
+                <div className="mt-[60px]">
+                <a 
+                 href="https://api.whatsapp.com/send?phone=5493813380751">
+                <button
+                style={{filter: "brightness(100%)"}}
+                className="relative inline-flex h-12 active:scale-95 transition overflow-hidden rounded-lg p-[1px] focus:outline-none"
+                >
+                <span
+                  style={{
+                    backgroundImage: 'conic-gradient(from 90deg at 50% 50%, #364ac6 0%, hsl(206deg 66.51% 49.59%) 50%, hsl(161.07deg 53.43% 40.35%) 100%)',
+                  }}
+                  className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]"
+                >
+                </span>
+                <span
+                className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg bg-slate-950 px-7 text-sm font-medium text-white backdrop-blur-3xl gap-2"
+                >
+                Contactanos
+                <svg
+                stroke="currentColor"
+                fill="currentColor"
+                strokeWidth="0"
+                viewBox="0 0 448 512"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+                >
+                <path
+                d="M429.6 92.1c4.9-11.9 2.1-25.6-7-34.7s-22.8-11.9-34.7-7l-352 144c-14.2 5.8-22.2 20.8-19.3 35.8s16.1 25.8 31.4 25.8H224V432c0 15.3 10.8 28.4 25.8 31.4s30-5.1 35.8-19.3l144-352z"
+                ></path>
+                </svg>
+                </span>
+               </button>
+                </a>
+   
+                
+                </div>
             </section>
-
+            
+            <h2 className="text-center text-blue-300 text-xl font-semibold my-6">Planes</h2>
             <section className="flex gap-x-4 justify-evenly flex-wrap gap-y-8 my-[70px]">
             
             <Link href={'./desarrolloweb/economica'} className="pointer">
