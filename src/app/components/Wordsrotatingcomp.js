@@ -1,0 +1,43 @@
+
+import React from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
+const words = ["Desarrollo Web", "Anuncios Pagos", "Diseño Web", "Anuncios en Redes", "Automatización", ];
+
+const WordsRotating = () => {
+  const [index, setIndex] = React.useState(0);
+
+  React.useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((prevIndex) => (prevIndex + 1) % words.length);
+    }, 2000); // Change word every 2 seconds
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <div className="relative h-20 w-40 overflow-hidden mx-auto">
+      <AnimatePresence>
+        <motion.div
+          key={index}
+          initial={{ opacity: 0, y: 50, rotateX: -90 }}
+          animate={{ opacity: 1, y: 0, rotateX: 0 }}
+          exit={{ opacity: 0, y: -50, rotateX: 90 }}
+          transition={{ duration: 0.5 }}
+          className="absolute inset-0 flex items-center justify-center"
+        >
+          <span className="text-xl pt-2 font-bold">{words[index]}</span>
+        </motion.div>
+      </AnimatePresence>
+    </div>
+  );
+};
+
+export default function WordsRotatingComp() {
+  return (
+    <div className="text-center py-8">
+      <h2 className='text-gray-200 text-center font-semibold'>Potencia tus ventas con nuestros servicios <br></br>
+      <span className='text-blue-400'><WordsRotating /></span></h2>
+    </div>
+  );
+}
+
