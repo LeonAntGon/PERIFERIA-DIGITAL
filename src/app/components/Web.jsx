@@ -25,9 +25,9 @@ export default function Web(){
             >
                 <div className="mt-[120px] mx-4">
                     <p className='mt-[16px] mb-[16px] font-semibold text-center text-[#bfbfbf] text-[1rem]'>Gana presencia online</p>
-                    <h1 className='text-center text-white font-bold text-[1.4rem]'>
+                    <h2 className='text-center text-white font-bold text-[1.4rem]'>
                         <TypewriterWeb/>
-                    </h1>
+                    </h2>
                 </div>
                 <div className="mt-[60px]">
                 <a 

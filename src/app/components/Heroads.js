@@ -1,5 +1,6 @@
 import secAdsImage from '/public/images/assets/secads-2.jpg';
 import FacebookSP from '/public/images/assets/facebookInSmarthPhone.jpg';
+import TypewriterAds from "./animations/TypewriterAds";
 import Image from 'next/image';
 
 
@@ -19,10 +20,10 @@ export default function Heroads(){
             }}
             >
                 <div className="mt-[120px] mx-4">
-                    <p className='mt-[16px] mb-[16px] font-semibold text-center text-[#bfbfbf] text-[1rem]'>Impulsa tus redes sociales</p>
-                    <h1 className='text-center text-white font-bold text-[1.4rem]'>
-                        INSTAGRAM & FACEBOOK ADS
-                    </h1>
+                    <p className='mt-[16px] mb-[16px] font-semibold text-center text-[#bfbfbf] text-[1rem]'>Facebook Ads | Instagram Ads</p>
+                    <h2 className='text-center text-white font-bold text-[1.4rem]'>
+                        <TypewriterAds/>
+                    </h2>
                 </div>
                 <div className="mt-[60px]">
                 <a 
