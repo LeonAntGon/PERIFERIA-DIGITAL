@@ -2,9 +2,9 @@
 
 import Nav from '../components/Nav.jsx';
 import Footer from '../components/Footer.jsx';
-import toledo from '@/images/capturas/toledo.png'
-import male from '@/images/capturas/malemoda.png'
-import milena from '@/images/capturas/milenaindumentaria.png'
+import toledo from '/public/images/capturas/toledo.png'
+import male from '/public/images/capturas/malemoda.png'
+import milena from '/public/images/capturas/milenaindumentaria.png'
 import Image from 'next/image.js';
 
 

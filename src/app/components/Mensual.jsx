@@ -1,6 +1,6 @@
-import customerserv from '@/images/assets/icons/customerservice.png';
-import support from '@/images/assets/icons/support.png';
-import security from '@/images/assets/icons/security.png';
+import customerserv from '/public/images/assets/icons/customerservice.png';
+import support from '/public/images/assets/icons/support.png';
+import security from '/public/images/assets/icons/security.png';
 import Image from 'next/image';
 
 export default function Mensual(){
