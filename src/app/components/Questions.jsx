@@ -15,7 +15,7 @@ export default function Questions() {
 
   const mensajeria = "Ideal si recibes muchas consultas y buscas ofrecer soporte 24/7; asimismo, permite personalizar la experiencia del cliente y reducir costos."
 
-  const general = "Sí, claro. En el enlace de contacto, encontrarás nuestro número de WhatsApp y un formulario para una asistencia más rápida si lo prefieres 🖥️"
+  const general = "Sí, claro. En el enlace de contacto, encontrarás nuestro número de WhatsApp para una consulta rápida 🖥️"
 
   return (
     <section className="mb-[60px]">
