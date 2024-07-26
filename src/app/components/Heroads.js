@@ -1,5 +1,5 @@
-import secAdsImage from '@/images/assets/secads-2.jpg';
-import FacebookSP from '@/images/assets/facebookInSmarthPhone.jpg';
+import secAdsImage from '/public/images/assets/secads-2.jpg';
+import FacebookSP from '/public/images/assets/facebookInSmarthPhone.jpg';
 import Image from 'next/image';
 
 

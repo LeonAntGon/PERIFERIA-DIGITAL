@@ -1,7 +1,7 @@
-"use client"
+
 import { Roboto } from "next/font/google";
 import {Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
-import logo from '@/images/assets/eyelogotransparent.png';
+import logo from '/public/images/assets/eyelogotransparent.png';
 import Image from "next/image";
 import './styles/shinetitle.css';
 

@@ -1,9 +1,8 @@
 import { Roboto } from "next/font/google";
 import { Saira_Condensed } from "next/font/google";
 import Services from "./Services";
-
-import Drawing from "./Drawing";
-import WordsRotatingComp from "./Wordsrotatingcomp";
+import Drawing from "./animations/Drawing";
+import WordsRotatingComp from "./animations/Wordsrotatingcomp";
 
 
 const saira = Saira_Condensed({

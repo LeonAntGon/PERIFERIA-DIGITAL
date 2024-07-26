@@ -1,11 +1,11 @@
-import "../components/styles/cardsweb.css"
 
-import entrepeneur from "@/images/assets/icons/entrepeneur.png";
-import shop from "@/images/assets/icons/shop.png";
-import company from "@/images/assets/icons/company.png";
+import "../components/styles/cardsweb.css";
+import entrepeneur from "/public/images/assets/icons/entrepeneur.png";
+import shop from "/public/images/assets/icons/shop.png";
+import company from "/public/images/assets/icons/company.png";
 import Image from "next/image";
 import Link from "next/link";
-import heroimg from '@/images/assets/web-hero-optimized.jpg';
+import heroimg from '/public/images/assets/web-hero-optimized.jpg';
 import TypewriterWeb from "./animations/TypewriterWeb";
 
 export default function Web(){

@@ -1,16 +1,29 @@
-"use client"
-
 import Nav from '../components/Nav.jsx';
 import Footer from '../components/Footer.jsx'
-import Neonbtn from '../components/animations/Neonbtn.js';
+import Neonbtn from '../components/animations/Neonbtn.jsx';
+import { Metadata } from 'next';
+import React from 'react';
 
 
+export const metadata: Metadata = {
+    title: 'Contacto - Periferia Digital',
+    openGraph: {
+      images: [
+        {
+          url: 'https://drive.google.com/file/d/1UFr-U158IkZ3DBfTmYyiBtdVuMljKGZj/view?usp=drive_link',
+          alt: 'Facebook Ads | Instagram Ads'
+        }
+      ],
+      type: 'website'
+    }
+  }
 export default function Contacto(){
 
     return(
         <>
         <Nav />
-        <main className='h-[440px] bg-[#0e0e0e]'>
+        <main className='h-[520px] bg-[#0e0e0e]'>
+            <h2 className='pt-[30px] text-center text-xl font-semibold text-gray-200'>Contactanos </h2>
 
         <section >
             <div className='h-[200px] lg:h-[300px] pt-[36px] flex justify-center'>
@@ -23,15 +36,6 @@ export default function Contacto(){
             <section className='flex justify-center mt-6'>
                 <Neonbtn/>
             </section>
-
-            
-
-
-
-           
-
-
-        
         </main>
         <Footer />
         </>
