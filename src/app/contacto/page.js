@@ -2,7 +2,7 @@
 
 import Nav from '../components/Nav.jsx';
 import Footer from '../components/Footer.jsx'
-import Neonbtn from '../components/Neonbtn.js';
+import Neonbtn from '../components/animations/Neonbtn.js';
 
 
 export default function Contacto(){

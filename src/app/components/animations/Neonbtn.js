@@ -62,6 +62,9 @@ class Neonbtn extends React.Component {
   handleMouseUp = () => {
     this.setState({ isActive: false });
   };
+  handleClick = () => {
+    window.location.href = 'https://api.whatsapp.com/send?phone=5493813380751';
+  };
 
   render() {
     const { isHovered, isActive } = this.state;
@@ -71,6 +74,8 @@ class Neonbtn extends React.Component {
       ...(isActive ? activeStyle : {}),
     };
 
+
+
     return (
       <button
         style={combinedStyle}
@@ -78,6 +83,7 @@ class Neonbtn extends React.Component {
         onMouseLeave={this.handleMouseLeave}
         onMouseDown={this.handleMouseDown}
         onMouseUp={this.handleMouseUp}
+        onClick={this.handleClick}
         className='flex'
       >
         <p className='pr-4 my-auto'>Contactar</p>
