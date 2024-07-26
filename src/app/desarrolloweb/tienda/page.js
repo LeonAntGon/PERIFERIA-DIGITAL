@@ -2,7 +2,7 @@
 import Nav from "../../components/Nav.jsx";
 import Mensual from "../../components/Mensual.jsx";
 import Footer from "../../components/Footer.jsx";
-import heroimg from '@/images/assets/epic-imgs/shopping.svg';
+import heroimg from '/public/images/assets/epic-imgs/shopping.svg';
 import Image from "next/image.js";
 
 export default function Tienda(){
