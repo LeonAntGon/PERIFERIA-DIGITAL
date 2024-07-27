@@ -32,6 +32,7 @@ const robo: { className: string } = Roboto({ subsets: ["latin"], weight: '400' }
 export const metadata: Metadata = {
   title: "Periferia Digital",
   description: "Una perspectiva digital para escalar tu negocio!",
+  
   openGraph: {
     siteName: "Periferia Digital",
     title: "Periferia Digital",
