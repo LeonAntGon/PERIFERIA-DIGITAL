@@ -141,20 +141,27 @@ export default async function Tienda(){
 
                     <div style={{
                         borderRadius: "0 0 25px 25px",
-                    }} className="bg-blue-300 text-center w-[100px] mx-auto font-bold"> <p>Precio</p>
+                    }} className="bg-blue-300 text-center w-[100px] mx-auto font-extrabold text-base"> <p>PRECIO</p>
                     </div>
 
-                    <div className="my-6 bg-[#edf5ff] text-center py-2">
-                        <p className="font-bold text-[16px]">Desarrollo Web</p>
-                        <p className="font-semibold text-[18px]"> $90.000</p>
+                    <div className="my-6 bg-[#edf5ff] text-center py-2 flex justify-evenly">
+                        
+                        <div>
+                        <p className="font-bold text-[16px]">Catálogo</p>
+                        <p className="font-semibold text-[14px]"> $63.000</p>
+                        </div>
+                        <div>
+                            <p className="font-bold text-[16px]">Venta online</p>
+                            <p className="font-semibold text-[14px]"> $90.000</p>
+                        </div>
                     </div>
 
                     <div className="my-6 bg-[#edf5ff] text-center py-2">
                         <p className="font-bold text-[16px]">Abono mensual</p>
-                        <p className="font-semibold text-[18px]"> $12.000</p>
+                        <p className="font-semibold text-[14px]"> $12.000</p>
                     </div>
 
-                    <div className="mt-6 bg-blue-200 text-center h-[46px] rounded-b-lg">
+                    <div className="mt-6 bg-blue-200 text-center h-[58px] rounded-b-lg">
                         <p className="font-bold text-[16px] pt-3 ">Dominio bonificado por un año</p>
                     </div>
 

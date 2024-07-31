@@ -129,7 +129,7 @@ export default async function Tienda(){
 
                     <div style={{
                         borderRadius: "0 0 25px 25px",
-                    }} className="bg-blue-300 text-center w-[100px] mx-auto font-bold"> <p>Precio</p>
+                    }} className="bg-blue-300 text-center w-[100px] mx-auto font-bold text-base"> <p>PRECIO</p>
                     </div>
 
                     <div className="my-6 bg-[#edf5ff] text-center py-2">
