@@ -7,7 +7,7 @@ import delay from 'delay';
 
 export default async function Tienda(){
 
-    await delay(1000)
+    await delay(2500)
     
     return(
         <>
