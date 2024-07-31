@@ -22,11 +22,12 @@ export default function Footer() {
           </div>
         </li>
       </ul>
-      <div className="flex mx-2 gap-x-4 my-4">
+      <div className="">
+        {/* flex mx-2 gap-x-4 my-4 */}
 
         
       <Instagram/>
-      <Facebook />
+      {/*<Facebook />*/}
       </div>
     </footer>
   );
