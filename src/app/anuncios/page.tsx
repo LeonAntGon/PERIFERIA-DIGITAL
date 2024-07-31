@@ -4,6 +4,7 @@ import Heroads from '../components/Heroads';
 import Footer from '../components/Footer';
 import { Metadata } from 'next';
 import React from 'react';
+import delay from 'delay';
 
 
 export const metadata: Metadata = {
@@ -22,7 +23,10 @@ export const metadata: Metadata = {
     }
   }
 
-export default function Anuncios(){
+export default async function Anuncios(){
+
+  await delay(2500);
+
     return(
         <>
         <Nav/>
