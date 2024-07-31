@@ -87,7 +87,7 @@ export default async function Tienda(){
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M20.945 11a9 9 0 1 1 -3.284 -5.997l-2.655 2.392a5.5 5.5 0 1 0 2.119 6.605h-4.125v-3h7.945z" />
                 </svg>
-                <span>Optimización para posicionamiento en Google</span>
+                <span>Optimización básica para Google</span>
                 </h3>
 
                 <h3>
@@ -122,12 +122,12 @@ export default async function Tienda(){
 
                     <div className="my-6 bg-[#edf5ff] text-center py-2">
                         <p className="font-bold text-[16px]">Desarrollo Web</p>
-                        <p className="font-semibold text-[18px]"> $40.000</p>
+                        <p className="font-semibold text-[18px]"> $45.000</p>
                     </div>
 
                     <div className="my-6 bg-[#edf5ff] text-center py-2">
                         <p className="font-bold text-[16px]">Abono mensual</p>
-                        <p className="font-semibold text-[18px]"> $10.000</p>
+                        <p className="font-semibold text-[18px]"> $0</p>
                     </div>
 
                     <div className="mt-6 bg-blue-200 text-center h-[46px] rounded-b-lg">
