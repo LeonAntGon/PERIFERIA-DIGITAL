@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import Web from '../components/Web';
 import { Metadata } from 'next';
 import React from 'react';
+import delay from 'delay';
 
 export const metadata: Metadata = {
   title: 'Desarrollo Web - Periferia Digital',
@@ -21,7 +22,9 @@ export const metadata: Metadata = {
   }
 }
 
-export default function Desarrolloweb() {
+export default async function Desarrolloweb() {
+
+  await delay(1000)
   return (
     <div>
       <Nav />

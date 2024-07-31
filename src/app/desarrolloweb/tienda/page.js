@@ -1,11 +1,14 @@
-"use client"
 import Nav from "../../components/Nav.jsx";
 import Mensual from "../../components/Mensual.jsx";
 import Footer from "../../components/Footer.jsx";
 import heroimg from '/public/images/assets/epic-imgs/shopping.svg';
 import Image from "next/image.js";
+import delay from 'delay';
 
-export default function Tienda(){
+export default async function Tienda(){
+
+    await delay(1000)
+
     return(
         <>
 
