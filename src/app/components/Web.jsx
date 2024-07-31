@@ -68,7 +68,7 @@ export default function Web(){
                 </div>
             </section>
             
-            <h2 className="text-center text-blue-300 text-xl font-semibold my-6">Planes</h2>
+            <h2 className="text-center text-blue-300 text-xl font-semibold my-10">Planes</h2>
             <section className="flex gap-x-4 justify-evenly flex-wrap gap-y-8 my-[70px]">
             
             <Link href={'./desarrolloweb/economica'} className="pointer">
