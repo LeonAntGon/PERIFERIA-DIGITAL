@@ -126,12 +126,12 @@ export default async function Tienda(){
                     </div>
 
                     <div className="my-6 bg-[#edf5ff] text-center py-2">
-                        <p className="font-bold text-[16px]">Abono mensual</p>
-                        <p className="font-semibold text-[18px]"> $0</p>
+                        <p className="font-bold text-[16px]">Abono mensual <span className="font-semibold">opcional</span></p>
+                        <p className="font-semibold text-[18px]"> $10.000</p>
                     </div>
 
                     <div className="mt-6 bg-blue-200 text-center h-[46px] rounded-b-lg">
-                        <p className="font-bold text-[16px] pt-3 ">Dominio gratis por un año</p>
+                        <p className="font-bold text-[16px] pt-3 ">Dominio binificado por un año</p>
                     </div>
 
                     </div>
