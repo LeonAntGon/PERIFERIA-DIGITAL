@@ -3,6 +3,7 @@ import { Saira_Condensed } from "next/font/google";
 import Services from "./Services";
 import Drawing from "./animations/Drawing";
 import WordsRotatingComp from "./animations/Wordsrotatingcomp";
+import Sliderbar from './animations/Sliderbar';
 
 
 const saira = Saira_Condensed({
@@ -85,10 +86,13 @@ export default function Hero() {
                 
                 </div>
         </div>
+
+        
+
         <div className="z-[-1] absolute" style={containerStyle}></div>
                 
                 
-             
+        
             </section>
             
             
@@ -110,7 +114,7 @@ export default function Hero() {
                 </div>
             </section>*/}
             
-
+            <Sliderbar/>
             <Services />
         </main>
     )
