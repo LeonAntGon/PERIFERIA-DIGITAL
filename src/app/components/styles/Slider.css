@@ -20,7 +20,7 @@
   .slider::after {
     background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
     content: "";
-    height: 60px;
+    height: 38px;
     position: absolute;
     width: 60px;
     z-index: 2;
