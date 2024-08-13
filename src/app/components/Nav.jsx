@@ -4,6 +4,7 @@ import {Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Navba
 import logo from '/public/images/assets/eyelogotransparent.png';
 import Image from "next/image";
 import './styles/shinetitle.css';
+import Sliderbar from "./animations/Sliderbar";
 
 const robo = Roboto({
   weight: "900",
@@ -33,6 +34,8 @@ export default function App() {
   ];
 
   return (
+    <>
+    <Sliderbar/>
     <Navbar disableAnimation isBordered>
       
       
@@ -84,5 +87,6 @@ export default function App() {
         ))}
       </NavbarMenu>
     </Navbar>
+    </>
   );
 }

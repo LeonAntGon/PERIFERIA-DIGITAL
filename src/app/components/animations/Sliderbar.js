@@ -3,7 +3,7 @@ import '../styles/Slider.css';
 
 export default function Sliderbar(){
     return(
-    <div className='sliderContainer mt-4'>
+    <div className='sliderContainer'>
         <div className="slider">
             <div className="slide-track
             [&>div>p]:font-semibold [&>div>p]:text-sm [&>div>p]:text-gray-200  [&>div>p]:leading-[2.6] ">
