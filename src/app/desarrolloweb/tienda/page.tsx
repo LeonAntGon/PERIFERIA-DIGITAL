@@ -163,7 +163,7 @@ export default async function Tienda(){
                         <p className="font-semibold text-[14px]"> $12.000</p>
                     </div>
 
-                    <div className="mt-3 bg-blue-200 text-center h-[58px] rounded-b-lg">
+                    <div className="mt-3 bg-blue-200 text-center h-[54px] rounded-b-lg">
                         <p className="font-bold text-[16px] pt-3 ">Dominio bonificado por un año</p>
                     </div>
 
