@@ -12,37 +12,37 @@ export default function Sliderbar(){
                     <p>Webs al 50%</p>
                 </div>
                 <div className="slide">
-                    <p>Hasta el 31/08</p>
+                    <p>Hasta el 31/09</p>
                 </div>
                 <div className="slide ">
-                    <p>WEBS al 50%</p>
+                    <p>webs al 80%</p>
                 </div>
                 <div className="slide">
-                    <p>Hasta el 31/08</p>
+                    <p>Hasta el 31/09</p>
                 </div>
                 <div className="slide ">
-                    <p>WEBS al 50%</p>
+                    <p>webs al 80%</p>
                 </div>
                 <div className="slide">
-                    <p>Hasta el 31/08</p>
+                    <p>Hasta el 31/09</p>
                 </div>
                 <div className="slide ">
-                    <p>WEBS al 50%</p>
+                    <p>webs al 80%</p>
                 </div>
                 <div className="slide">
-                    <p>Hasta el 31/08</p>
+                    <p>Hasta el 31/09</p>
                 </div>
                 <div className="slide ">
-                    <p>WEBS al 50%</p>
+                    <p>webs al 80%</p>
                 </div>
                 <div className="slide">
-                    <p>Hasta el 31/08</p>
+                    <p>Hasta el 31/09</p>
                 </div>
                 <div className="slide ">
-                    <p>WEBS al 50%</p>
+                    <p>webs al 80%</p>
                 </div>
                 <div className="slide">
-                    <p>Hasta el 31/08</p>
+                    <p>Hasta el 31/09</p>
                 </div>
                 
             </div>

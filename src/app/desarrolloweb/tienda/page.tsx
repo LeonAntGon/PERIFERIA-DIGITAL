@@ -148,13 +148,13 @@ export default async function Tienda(){
                         
                         <div>
                         <p className="font-bold text-[16px]">Catálogo</p>
-                        <p className="text-[12px] text-gray-500 line-through">$100.000</p>
-                        <p className="font-semibold text-[14px]"> $50.000</p>
+                        <p className="text-[12px] text-gray-500 line-through">$95.000</p>
+                        <p className="font-semibold text-[14px]"> $76.000</p>
                         </div>
                         <div>
                             <p className="font-bold text-[16px]">Venta online</p>
-                            <p className="text-[12px] text-gray-500 line-through">$150.000</p>
-                            <p className="font-semibold text-[14px]"> $75.000</p>
+                            <p className="text-[12px] text-gray-500 line-through">$135.000</p>
+                            <p className="font-semibold text-[14px]"> $108.000</p>
                         </div>
                     </div>
 

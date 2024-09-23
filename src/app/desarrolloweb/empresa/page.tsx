@@ -134,8 +134,8 @@ export default async function Tienda(){
 
                     <div className="my-6 bg-[#edf5ff] text-center py-2">
                         <p className="font-bold text-[16px]">Desarrollo Web</p>
-                        <p className="text-[12px] text-gray-500 line-through">$130.000</p>
-                        <p className="font-semibold text-[18px]"> $65.000</p>
+                        <p className="text-[12px] text-gray-500 line-through">$158.000</p>
+                        <p className="font-semibold text-[18px]"> $126.400</p>
                     </div>
 
                     <div className="mt-5 mb-2 bg-[#edf5ff] text-center py-2">
