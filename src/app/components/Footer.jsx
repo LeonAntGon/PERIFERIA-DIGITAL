@@ -17,7 +17,7 @@ export default function Footer() {
           <div
             className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
           >
-            <Link href="/contacto">
+            <Link href="/contacto" className="border-b border-blue-900 text-blue-900 hover:text-blue-500 hover:border-blue-500 font-semibold">
             Contactanos</Link>
           </div>
         </li>
@@ -26,7 +26,7 @@ export default function Footer() {
         {/* flex mx-2 gap-x-4 my-4 */}
 
         
-      <Instagram/>
+    {/* <Instagram/> */}  
       {/*<Facebook />*/}
       </div>
     </footer>
