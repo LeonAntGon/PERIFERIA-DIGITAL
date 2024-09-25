@@ -36,8 +36,8 @@ export default function WordsRotatingComp() {
   return (
     <div className="text-center py-8 px-2">
       <h2 className='text-gray-200 text-center font-semibold'>Potenciamos tu presencia online, alcance en redes y mucho más con nuestros 
-        <span className='text-blue-300'> servicios digitales</span> <br></br>
-      <span className='text-blue-400'><WordsRotating /></span></h2>
+        <span className='text-[#F0E68C]'> servicios digitales</span> <br></br>
+      <span className='text-[#F7E98E]'><WordsRotating /></span></h2>
     </div>
   );
 }
