@@ -15,9 +15,9 @@ export default function Footer() {
        
         <li>
           <div
-            className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+            className="font-normal transition-colors hover:text-gray-800 focus:text-gray-800"
           >
-            <Link href="/contacto" className="border-b border-blue-900 text-blue-900 hover:text-blue-500 hover:border-blue-500 font-semibold">
+            <Link href="/contacto" className="border-b border-gray-900 text-black hover:text-gray-800 hover:border-gray-800 font-semibold">
             Contactanos</Link>
           </div>
         </li>

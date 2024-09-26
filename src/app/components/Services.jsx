@@ -34,9 +34,9 @@ export default function Services(){
                <div className="container mx-auto w-full h-full">
                <div className="relative wrap overflow-hidden m-[20px] h-full">
                <div className="border-1 absolute h-full"
-               style={{ right: '50%', border: '1px solid #006dfe', borderRadius: '60%' }}></div>
+               style={{ right: '50%', border: '1px solid #F0E68C', borderRadius: '60%' }}></div>
               <div className="border-2 absolute h-full"
-              style={{ left: '50%', border: '1px solid #006dfe', borderRadius: '60%' }}></div>
+              style={{ left: '50%', border: '1px solid #F0E68C', borderRadius: '60%' }}></div>
               <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
               <div className="order-1 w-5/12"></div>
               <div className="order-1 w-6/12 px-1 py-4 text-left">
