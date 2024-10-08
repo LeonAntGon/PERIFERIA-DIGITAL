@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const words = ["Desarrollo Web", "Anuncios Pagos", "Diseño Web", "Anuncios en Redes", "Automatización", ];
+const words = ["Desarrollo Web", "Anuncios Pagos", "Apps Móbiles", "Anuncios en Redes", "Automatización", ];
 
 const WordsRotating = () => {
   const [index, setIndex] = React.useState(0);
