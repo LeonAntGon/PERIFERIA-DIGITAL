@@ -7,7 +7,7 @@ import delay from 'delay';
 
 export const metadata: Metadata = {
   title: 'Desarrollo Web - Periferia Digital',
-  description: 'Descripción específica de la página de desarrollo web.',
+  description: 'Paginas web a medida para tu negocio.',
   openGraph: {
     title: 'Desarrollo Web - Periferia Digital',
     description: 'Presencia online al alcance de tus dedos.',
