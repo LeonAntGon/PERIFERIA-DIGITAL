@@ -1,38 +1,16 @@
 "use client"
-import { useEffect, useState } from 'react';
+import Link from 'next/link';
 import "../components/styles/cardsweb.css";
 import entrepeneur from "/public/images/assets/icons/entrepeneur.png";
 import shop from "/public/images/assets/icons/shop.png";
 import company from "/public/images/assets/icons/company.png";
 import restaurant from "/public/images/assets/icons/restaurant.jpg";
 import Image from "next/image";
-import Link from "next/link";
 import heroimg from '/public/images/assets/web-hero-optimized-og.jpg';
 import TypewriterWeb from "./animations/TypewriterWeb";
 
 export default function Web(){
-    
-    const [loading, setLoading] = useState(false); // Estado para manejar el loading
-
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerWidth < 1024);
-        };
-
-        window.addEventListener('resize', handleResize);
-        handleResize(); // Llama a la función al montar el componente
-
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []);
-
-    const handleLinkClick = (url) => {
-        setLoading(true); // Activa el loading
-        setTimeout(() => {
-            window.location.href = url; // Cambiar a window.location.href
-        }, 1000); // Retraso de 1000 ms (1 segundo)
-    };
+   
 
     return(
         <main>
@@ -97,9 +75,9 @@ export default function Web(){
             <h2 className="text-center text-blue-300 text-xl font-semibold my-10">Planes</h2>
             <section className="flex gap-x-4 justify-evenly flex-wrap gap-y-8 my-[70px] mx-4">
             
-            <Link href="#" onClick={() => handleLinkClick('./desarrolloweb/economica')} className="pointer">
-                <div class="carta  ">
-                <div class="carta-details ">
+            <Link href='./desarrolloweb/economica' prefetch className="pointer">
+                <div class="carta">
+                <div class="carta-details">
                 <Image src={entrepeneur} alt="emprendedor" className="h-[80px] mx-auto" />
                 <h2 class="text-center font-semibold">Página Web para emprendedores</h2>
                 <p class="text-[#868686] text-sm text-center">Web económica</p>
@@ -108,7 +86,7 @@ export default function Web(){
                 </div>
             </Link>
                 
-                <Link href="#" onClick={() => handleLinkClick('./desarrolloweb/tienda')} className="pointer">
+                <Link href='./desarrolloweb/tienda' prefetch className="pointer">
                 <div class="carta">
                     <div class="carta-details">
                     <Image src={shop} alt="tienda" className="h-[80px] mt-2 mx-auto" />
@@ -120,7 +98,7 @@ export default function Web(){
                 </Link>
                 
 
-                <Link href="#" onClick={() => handleLinkClick('./desarrolloweb/empresa')} className="pointer">
+                <Link href='./desarrolloweb/empresa' prefetch className="pointer">
                 <div class="carta">
                 <div class="carta-details">
                 <Image src={company} alt="empresa" className="h-[80px] mt-2 mx-auto" />
@@ -131,7 +109,7 @@ export default function Web(){
                 </div>
                 </Link>
 
-                <Link href="#" onClick={() => handleLinkClick('./desarrolloweb/restaurantes')} className="pointer">
+                <Link href='./desarrolloweb/restaurantes' prefetch className="pointer">
                 <div class="carta">
                 <div class="carta-details">
                 <Image src={restaurant} alt="empresa" className="h-[80px] mt-2 mx-auto" />
