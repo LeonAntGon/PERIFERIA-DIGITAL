@@ -7,14 +7,11 @@ import company from "/public/images/assets/icons/company.png";
 import restaurant from "/public/images/assets/icons/restaurant.jpg";
 import Image from "next/image";
 import Link from "next/link";
-import heroimg from '/public/images/assets/web-hero-optimized.jpg';
+import heroimg from '/public/images/assets/web-hero-optimized-og.jpg';
 import TypewriterWeb from "./animations/TypewriterWeb";
-import heroresponsive from '/public/images/assets/web-hero-responsive-opt-2.jpg';
-import { useRouter } from 'next/router'; // Importa useRouter
 
 export default function Web(){
-    const router = useRouter(); // Inicializa el router
-    const [isMobile, setIsMobile] = useState(false);
+    
     const [loading, setLoading] = useState(false); // Estado para manejar el loading
 
     useEffect(() => {
@@ -33,7 +30,7 @@ export default function Web(){
     const handleLinkClick = (url) => {
         setLoading(true); // Activa el loading
         setTimeout(() => {
-            router.push(url); // Redirige después del retraso
+            window.location.href = url; // Cambiar a window.location.href
         }, 1000); // Retraso de 1000 ms (1 segundo)
     };
 
@@ -43,7 +40,7 @@ export default function Web(){
             <section
             className="h-[450px] md:h-[520px] flex flex-col items-center"
             style={{
-                backgroundImage: `url(${isMobile ? heroresponsive.src : heroimg.src})`,
+                backgroundImage: `url(${heroimg.src})`, // Solo se usa heroimg
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
@@ -98,7 +95,7 @@ export default function Web(){
             </section>
             
             <h2 className="text-center text-blue-300 text-xl font-semibold my-10">Planes</h2>
-            <section className="flex gap-x-4 justify-evenly flex-wrap gap-y-8 my-[70px]">
+            <section className="flex gap-x-4 justify-evenly flex-wrap gap-y-8 my-[70px] mx-4">
             
             <Link href="#" onClick={() => handleLinkClick('./desarrolloweb/economica')} className="pointer">
                 <div class="carta  ">
