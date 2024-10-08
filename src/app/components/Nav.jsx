@@ -19,6 +19,8 @@ export default function App() {
         return "/desarrolloweb";
       case "Sistemas de automatización":
         return "/automatizar";
+      case "Desarrollo de aplicaciones":
+        return "desarrollo-de-apps";
       default:
         return `/${item.toLowerCase().replace(/ /g, "")}`;
     }
@@ -29,6 +31,7 @@ export default function App() {
     "Desarrollo web",
     "Anuncios",
     "Sistemas de automatización",
+    "Desarrollo de aplicaciones",
     "Contacto",
   ];
 
