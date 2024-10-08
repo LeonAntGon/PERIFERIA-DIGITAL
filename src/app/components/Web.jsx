@@ -9,10 +9,13 @@ import Image from "next/image";
 import Link from "next/link";
 import heroimg from '/public/images/assets/web-hero-optimized.jpg';
 import TypewriterWeb from "./animations/TypewriterWeb";
-import heroresponsive from '/public/images/assets/web-hero-responsive-opt.jpg';
+import heroresponsive from '/public/images/assets/web-hero-responsive-opt-2.jpg';
+import { useRouter } from 'next/router'; // Importa useRouter
 
 export default function Web(){
+    const router = useRouter(); // Inicializa el router
     const [isMobile, setIsMobile] = useState(false);
+    const [loading, setLoading] = useState(false); // Estado para manejar el loading
 
     useEffect(() => {
         const handleResize = () => {
@@ -26,6 +29,13 @@ export default function Web(){
             window.removeEventListener('resize', handleResize);
         };
     }, []);
+
+    const handleLinkClick = (url) => {
+        setLoading(true); // Activa el loading
+        setTimeout(() => {
+            router.push(url); // Redirige después del retraso
+        }, 1000); // Retraso de 1000 ms (1 segundo)
+    };
 
     return(
         <main>
@@ -90,7 +100,7 @@ export default function Web(){
             <h2 className="text-center text-blue-300 text-xl font-semibold my-10">Planes</h2>
             <section className="flex gap-x-4 justify-evenly flex-wrap gap-y-8 my-[70px]">
             
-            <Link href={'./desarrolloweb/economica'} className="pointer">
+            <Link href="#" onClick={() => handleLinkClick('./desarrolloweb/economica')} className="pointer">
                 <div class="carta  ">
                 <div class="carta-details ">
                 <Image src={entrepeneur} alt="emprendedor" className="h-[80px] mx-auto" />
@@ -101,7 +111,7 @@ export default function Web(){
                 </div>
             </Link>
                 
-                <Link href={'./desarrolloweb/tienda'} className="pointer">
+                <Link href="#" onClick={() => handleLinkClick('./desarrolloweb/tienda')} className="pointer">
                 <div class="carta">
                     <div class="carta-details">
                     <Image src={shop} alt="tienda" className="h-[80px] mt-2 mx-auto" />
@@ -113,7 +123,7 @@ export default function Web(){
                 </Link>
                 
 
-                <Link href={'./desarrolloweb/empresa'} className="pointer">
+                <Link href="#" onClick={() => handleLinkClick('./desarrolloweb/empresa')} className="pointer">
                 <div class="carta">
                 <div class="carta-details">
                 <Image src={company} alt="empresa" className="h-[80px] mt-2 mx-auto" />
@@ -124,7 +134,7 @@ export default function Web(){
                 </div>
                 </Link>
 
-                <Link href={'./desarrolloweb/restaurantes'} className="pointer">
+                <Link href="#" onClick={() => handleLinkClick('./desarrolloweb/restaurantes')} className="pointer">
                 <div class="carta">
                 <div class="carta-details">
                 <Image src={restaurant} alt="empresa" className="h-[80px] mt-2 mx-auto" />

@@ -12,16 +12,14 @@ function Restaurantes() {
 
   useEffect(() => {
     const loadData = async () => {
-      await delay(2500); // Wait for 2.5 seconds
+      await delay(1000); // Wait for 2.5 seconds
       setLoading(false); // Set loading to false after delay
     };
 
     loadData();
   }, []);
 
-  if (loading) {
-    return <div>Loading...</div>; // Show loading state
-  }
+  
 
    const containerStyle = {
           width: '100%',
