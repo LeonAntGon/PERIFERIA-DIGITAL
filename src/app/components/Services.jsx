@@ -185,7 +185,7 @@ export default function Services(){
                 <p className="text-sm md:text-base leading-snug text-gray-900 text-opacity-100">
                 Creamos aplicaciones híbridas con React Native para iOS y Android, asegurando eficiencia y una experiencia fluida en todos los dispositivos. Maximiza tu alcance y llega a más usuarios con una sola solución.</p>
                 <p className="text-sm font-semibold mb-4">Aplicaciones hibridas | React Native</p>
-                <Link href="/desarrollo-apps-hibridas" passHref>
+                <Link href="/proximamente" passHref>
                 <button
                 className="mt-4 relative flex items-center justify-center w-[130px] h-10 bg-black text-white font-semibold gap-2 cursor-pointer shadow-[5px_5px_10px_rgba(0,0,0,0.103)] transition duration-300 overflow-hidden"
                 style={{ border: 'none' }}
