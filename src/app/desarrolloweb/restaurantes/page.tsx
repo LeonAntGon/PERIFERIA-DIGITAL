@@ -227,7 +227,7 @@ function Restaurantes() {
             <section className='h-[250px] flex flex-col items-center'>
                 <div className='mb-auto mt-[30px]'>
                     <div><h4 className='text-white font-bold text-center pb-4 text-lg'>Extra</h4></div>
-                    <div className='[&>p]:text-white [&>p]:text-md [&>ul>li]:text-white [&>ul>li]:text-sm'>
+                    <div className='[&>p]:text-white [&>p]:text-md [&>ul>li]:text-white [&>ul>li]:text-sm mx-4 md:mx-0'>
                         <p className='font-semibold'>Asistencia en la Creación de Contenido:</p>
                         <ul>
                             <li >Redacción de descripciones de platos y creación de contenido visual.</li>
