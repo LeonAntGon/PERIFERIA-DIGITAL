@@ -1,4 +1,3 @@
-
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import Web from '../components/Web';
@@ -23,10 +22,11 @@ export const metadata: Metadata = {
 }
 
 export default async function Desarrolloweb() {
+  await delay(2500); // Espera 2.5 segundos
 
-  await delay(1000)
   return (
     <div>
+      {/* Aquí podrías mostrar un indicador de carga mientras esperas */}
       <Nav />
       <Web />
       <Footer />

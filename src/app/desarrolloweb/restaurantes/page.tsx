@@ -1,30 +1,64 @@
-
+"use client"
+import React, { useEffect, useState } from 'react'
 import Nav from "../../components/Nav.jsx";
 import Mensual from "../../components/Mensual.jsx";
 import Footer from "../../components/Footer.jsx";
-import heroimg from '/public/images/assets/epic-imgs/company.svg';
+import heroimg from '/public/images/assets/epic-imgs/restaurant.svg';
 import Image from "next/image.js";
 import delay from 'delay';
 
-export default async function Tienda(){
-    
- 
+function Restaurantes() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const loadData = async () => {
+      await delay(2500); // Wait for 2.5 seconds
+      setLoading(false); // Set loading to false after delay
+    };
+
+    loadData();
+  }, []);
+
+  if (loading) {
+    return <div>Loading...</div>; // Show loading state
+  }
+
+   const containerStyle = {
+          width: '100%',
+          height: '100%',
+          maxHeight: '250px',
+          background: '#000000',
+          '--gap': '5em',
+          '--line': '1px',
+          '--color': 'rgba(255, 255, 255, 0.2)',
+          backgroundImage: `linear-gradient(
+            -90deg,
+            transparent calc(var(--gap) - var(--line)),
+            var(--color) calc(var(--gap) - var(--line) + 1px),
+            var(--color) var(--gap)
+          ),
+          linear-gradient(
+            0deg,
+            transparent calc(var(--gap) - var(--line)),
+            var(--color) calc(var(--gap) - var(--line) + 1px),
+            var(--color) var(--gap)
+          )`,
+          backgroundSize: 'var(--gap) var(--gap)',
+        };
 
 
-    
-        await delay(2500);
-        return (
-            <>
+  return (
+    <>
                 <Nav/>
                 <main>
                 <section className="mt-5 flex flex-wrap justify-center lg:justify-between lg:flex-nowrap">
                     <div className=" mx-8 mt-[85px] h-[200px] lg:h-350px">
-                <h1 className="  text-center text-[28px] font-semibold ">Diseño de páginas web para <span className="text-blue-500">Empresas</span></h1>
-                <p className="text-center mt-6">¿Sos emprendedor o tenés tu negocio y necesitas presencia online?<br></br> Podemos ayudarte.</p>
+                <h1 className="  text-center text-[28px] font-semibold ">Desarrollo web para <span className="text-blue-500">Restaurantes</span></h1>
+                <p className="text-center mt-6">Ya sea por algo simple como una carta digital, un sitio web, <br></br>o la implementación de sistemas para tener mayor control de su restaurante, <br></br><span className='font-semibold'>podemos ayudarle.</span></p>
                 </div>
 
                 <div className="">
-                <Image className="md:mt-[60px] mt-[60px]   max-w-[600px] w-[100%]" src={heroimg} alt="" />
+                <Image className="md:mt-[60px] mt-[60px] mr-8 max-w-[600px] w-[100%]" src={heroimg} alt="Imagen representativa de restaurantes" />
                 </div>
             
 
@@ -72,7 +106,7 @@ export default async function Tienda(){
                 </h3>
 
                 <h3>
-                <svg width="30px" height="30px" viewBox="0 0 24 24" stroke-width="1.2" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M9 9L13.5 12L18 9" stroke="#000000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 13.5H5" stroke="#000000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M1 10.5H5" stroke="#000000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M5 7.5V7C5 5.89543 5.89543 5 7 5H20C21.1046 5 22 5.89543 22 7V17C22 18.1046 21.1046 19 20 19H7C5.89543 19 5 18.1046 5 17V16.5" stroke="#000000" stroke-width="1.2" stroke-linecap="round"></path></svg>
+                <svg width="30px" height="30px" viewBox="0 0 24 24" stroke-width="1.2" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M9 9L13.5 12L18 9" stroke="#000000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 13.5H5" stroke="#000000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M1 10.5H5" stroke="#000000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M5 7.5V7C5 5.89543 5.89543 5 7 5H20C21.1046 5 22 5.89543 22 7V17C22 18.1046 21.1046 19 20 19H7C5.89543 19 5 18.1046 5 17V16.5" stroke="#000000" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                 <span>Formulario de contacto</span>
 
                 </h3>
@@ -114,15 +148,43 @@ export default async function Tienda(){
                 </h3>
 
                 <h3>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-device-analytics" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <path d="M3 4m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z" />
-                    <path d="M7 20l10 0" />
-                    <path d="M9 16l0 4" />
-                     <path d="M15 16l0 4" />
-                    <path d="M8 12l3 -3l2 2l3 -3" />
-                    </svg>
-                    <span>Integración de Google Analytics</span>
+                    
+                <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-tools-kitchen-2" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M19 3v12h-5c-.023 -3.681 .184 -7.406 5 -12zm0 12v6h-1v-3m-10 -14v17m-3 -17v3a3 3 0 1 0 6 0v-3" />
+                </svg>
+                <span>Menú Digital</span>
+                </h3>
+
+                <h3>
+                <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-quote" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M10 11h-4a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v6c0 2.667 -1.333 4.333 -4 5" />
+                <path d="M19 11h-4a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v6c0 2.667 -1.333 4.333 -4 5" />
+                </svg>
+                <span>Reseñas y Testimonios</span>
+                </h3>
+
+                <h3>
+                <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-truck-delivery" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                  <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                  <path d="M5 17h-2v-4m-1 -8h11v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
+                  <path d="M3 9l4 0" />
+                </svg>
+                <span>Integración con Plataformas de Delivery</span>
+                </h3>
+
+                <h3>
+                <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-clipboard-text" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
+                  <path d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z" />
+                  <path d="M9 12h6" />
+                  <path d="M9 16h6" />
+                </svg>
+                <span>Reserva en Línea</span>
                 </h3>
 
 
@@ -146,13 +208,13 @@ export default async function Tienda(){
 
                     <div className="my-6 bg-[#edf5ff] text-center py-2">
                         <p className="font-bold text-[16px]">Desarrollo Web</p>
-                        <p className="text-[12px] text-gray-500 line-through">$180.000</p>
-                        <p className="font-semibold text-[18px]"> $162.000</p>
+                        <p className="text-[12px] text-gray-500 line-through">$200.000</p>
+                        <p className="font-semibold text-[18px]"> $180.000</p>
                     </div>
 
                     <div className="mt-5 mb-2 bg-[#edf5ff] text-center py-2">
                         <p className="font-bold text-[16px]">Abono mensual</p>
-                        <p className="font-semibold text-[18px]"> $25.000</p>
+                        <p className="font-semibold text-[18px]"> $30.000</p>
                     </div>
 
                     <div className="mt-1 bg-blue-200 text-center h-[46px] rounded-b-lg">
@@ -164,13 +226,33 @@ export default async function Tienda(){
                     
             </section>
             
+            <section className='h-[250px] flex flex-col items-center'>
+                <div className='mb-auto mt-[30px]'>
+                    <div><h4 className='text-white font-bold text-center pb-4 text-lg'>Extra</h4></div>
+                    <div className='[&>p]:text-white [&>p]:text-md [&>ul>li]:text-white [&>ul>li]:text-sm'>
+                        <p className='font-semibold'>Asistencia en la Creación de Contenido:</p>
+                        <ul>
+                            <li >Redacción de descripciones de platos y creación de contenido visual.</li>
+                        </ul>
+                        <p className='font-semibold mt-6'>Capacitación en el Uso de la Web:</p>
+                        <ul>
+                            <li>Formación sobre cómo gestionar el contenido del sitio.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div className="z-[-1] absolute" style={containerStyle}></div>
 
+            </section>
+ 
             <Mensual/>
-
-        </main>
+           </main>
+        
 
         <Footer/>
-
         </>
-    )
+
+  )
 }
+
+export default Restaurantes;

@@ -1,27 +1,46 @@
-
+"use client"
+import { useEffect, useState } from 'react';
 import "../components/styles/cardsweb.css";
 import entrepeneur from "/public/images/assets/icons/entrepeneur.png";
 import shop from "/public/images/assets/icons/shop.png";
 import company from "/public/images/assets/icons/company.png";
+import restaurant from "/public/images/assets/icons/restaurant.jpg";
 import Image from "next/image";
 import Link from "next/link";
 import heroimg from '/public/images/assets/web-hero-optimized.jpg';
 import TypewriterWeb from "./animations/TypewriterWeb";
+import heroresponsive from '/public/images/assets/web-hero-responsive-opt.jpg';
 
 export default function Web(){
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth < 1024);
+        };
+
+        window.addEventListener('resize', handleResize);
+        handleResize(); // Llama a la función al montar el componente
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     return(
         <main>
 
             <section
             className="h-[450px] md:h-[520px] flex flex-col items-center"
-            style={{ backgroundImage: `url(${heroimg.src})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-            boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
-            maskImage: 'linear-gradient(black 95%, transparent)',
-            //filter: "brightness(60%)",
-            }}
+            style={{
+                backgroundImage: `url(${isMobile ? heroresponsive.src : heroimg.src})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+                boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+                maskImage: 'linear-gradient(black 95%, transparent)',
+                //filter: "brightness(60%)",
+                }}
             >
                 <div className="mt-[120px] mx-4">
                     <p className='mt-[16px] mb-[16px] font-semibold text-center text-[#bfbfbf] text-[1rem]'>Gana presencia online</p>
@@ -98,8 +117,19 @@ export default function Web(){
                 <div class="carta">
                 <div class="carta-details">
                 <Image src={company} alt="empresa" className="h-[80px] mt-2 mx-auto" />
-                <h3 class="text-center font-semibold">Página Web para Empresas</h3>
-                <p class="text-[#868686] text-sm text-center">Diseño profesional y más </p>
+                <h3 class="text-center font-semibold">Empresas</h3>
+                <p class="text-[#868686] text-sm text-center">Diseño profesional, CMS, Admin panel y más </p>
+                </div>
+                <button class="carta-button">SABER MÁS</button>
+                </div>
+                </Link>
+
+                <Link href={'./desarrolloweb/restaurantes'} className="pointer">
+                <div class="carta">
+                <div class="carta-details">
+                <Image src={restaurant} alt="empresa" className="h-[80px] mt-2 mx-auto" />
+                <h3 class="text-center font-semibold">Restaurantes</h3>
+                <p class="text-[#868686] text-sm text-center">Carta menú digital</p>
                 </div>
                 <button class="carta-button">SABER MÁS</button>
                 </div>

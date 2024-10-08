@@ -178,7 +178,54 @@ export default function Services(){
               </div>
               
             </div>
-            
+            <div className="mb-8 flex justify-between items-center w-full right-timeline">
+              <div className="order-1 w-5/12"></div>
+              <div className="order-1 w-5/12 px-1 py-4">
+                <h4 className={`mb-3 font-bold text-lg md:text-xl ${mont.className}`}>Aplicaciones móviles</h4>
+                <p className="text-sm md:text-base leading-snug text-gray-900 text-opacity-100">
+                Creamos aplicaciones híbridas con React Native para iOS y Android, asegurando eficiencia y una experiencia fluida en todos los dispositivos. Maximiza tu alcance y llega a más usuarios con una sola solución.</p>
+                <p className="text-sm font-semibold mb-4">Aplicaciones hibridas | React Native</p>
+                <Link href="/desarrollo-apps-hibridas" passHref>
+                <button
+                className="mt-4 relative flex items-center justify-center w-[130px] h-10 bg-black text-white font-semibold gap-2 cursor-pointer shadow-[5px_5px_10px_rgba(0,0,0,0.103)] transition duration-300 overflow-hidden"
+                style={{ border: 'none' }}
+                onMouseOver={(e) => {
+                const before = e.currentTarget.querySelector('span');
+                before.style.transform = 'translate(100%,-50%)';
+                before.style.borderRadius = '0';
+                }}
+                onMouseOut={(e) => {
+                const before = e.currentTarget.querySelector('span');
+                 before.style.transform = '';
+                before.style.borderRadius = '50%';
+                }}
+                onMouseDown={(e) => {
+                e.currentTarget.style.transform = 'translate(5px,5px)';
+                 }}
+                 onMouseUp={(e) => {
+                e.currentTarget.style.transform = '';
+                }}
+                >
+               VER PLANES
+              <span
+              className="absolute bg-white rounded-full"
+              style={{
+              width: '130px',
+              height: '130px',
+              left: '-100%',
+              top: '0',
+              transitionDuration: '0.3s',
+              mixBlendMode: 'difference',
+              }}
+             ></span>
+             </button>
+                </Link>
+
+                
+                
+              </div>
+              
+            </div>
             </div>
             
            </div>

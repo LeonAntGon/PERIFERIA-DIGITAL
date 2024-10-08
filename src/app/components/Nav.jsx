@@ -35,14 +35,14 @@ export default function App() {
   return (
     <>
     <Sliderbar/>
-    <Navbar disableAnimation isBordered className="bg-black">
+    <Navbar disableAnimation isBordered className="bg-black top-[-1px]" >
       
       
 
       <NavbarContent className=" pr-3" justify="center">
         <NavbarBrand className="md:mx-auto">
           {/* <AcmeLogo />*/}
-          <Link href="/" className="pointer "><Image className="pt-1" src={logo.src} alt="logo" height={30} width={30} />
+          <Link href="/" className="pointer "><Image className="" src={logo.src} alt="logo" height={30} width={30} />
           <div className="z-10 h-[100%]">
                     {/*<h1 className={`z-20 absolute text-[40px] font-bold font-italic ${saira.className}`}
                     style={{
