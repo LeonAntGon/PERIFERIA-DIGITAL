@@ -12,7 +12,7 @@ export default function gestorDeResenas(){
     const containerStyle = {
         width: '100%',
         height: '100%',
-        maxHeight: '550px',
+        
         background: '#000000',
         '--gap': '5em',
         '--line': '1px',
@@ -146,7 +146,7 @@ export default function gestorDeResenas(){
                 <div className='flex justify-center'>
                     <a
                     href="#"
-                    className=" w-[400px] mt-8 block rounded-full border border-black bg-black px-12 py-3 text-center text-sm font-medium text-white hover:bg-gray-800 hover:ring-1 hover:ring-black focus:outline-none focus:ring"
+                    className=" md:max-w-[400px] mt-8 block rounded-full border border-black bg-black px-12 py-3 text-center text-sm font-medium text-white hover:bg-gray-800 hover:ring-1 hover:ring-black focus:outline-none focus:ring"
                     >
                     Consigue una Demostración!
                     </a>

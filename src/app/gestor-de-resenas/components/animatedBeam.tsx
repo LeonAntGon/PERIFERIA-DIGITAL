@@ -9,8 +9,8 @@ const LogoBeam = () => {
   return (
     <div className="flex items-center justify-center">
       <div className="relative flex items-center">
-        <div className="bg-[#2b2836] border-2 border-[#33313d] rounded-2xl flex items-center justify-center w-[70px] h-14 p-4">
-        <svg width="60px" height="60px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff"><path d="M12 16.01L12.01 15.9989" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 19.4V4.6C7 4.26863 7.26863 4 7.6 4H16.4C16.7314 4 17 4.26863 17 4.6V19.4C17 19.7314 16.7314 20 16.4 20H7.6C7.26863 20 7 19.7314 7 19.4Z" stroke="#ffffff" stroke-width="1.5"></path></svg>
+        <div className="bg-[#2b2836] border-2 border-[#33313d] rounded-2xl flex items-center justify-center w-[50px] h-14 p-2">
+        <svg width="40px" height="40px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffffff"><path d="M12 16.01L12.01 15.9989" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 19.4V4.6C7 4.26863 7.26863 4 7.6 4H16.4C16.7314 4 17 4.26863 17 4.6V19.4C17 19.7314 16.7314 20 16.4 20H7.6C7.26863 20 7 19.7314 7 19.4Z" stroke="#ffffff" stroke-width="1.5"></path></svg>
         </div>
         <div className="relative" style={{ width: `${lineWidth}px`, height: `${lineHeight}px`, backgroundColor: '#33313d', overflow: 'hidden' }}>
           <motion.div
@@ -55,7 +55,7 @@ const LogoBeam = () => {
             style={{ willChange: 'transform' }}
           />
         </div>
-        <div className="bg-[#2b2836] border-2 border-[#33313d] rounded-2xl flex items-center justify-center w-[70px] h-14 p-4">
+        <div className="bg-[#2b2836] border-2 border-[#33313d] rounded-2xl flex items-center justify-center w-[50px] h-14 p-2">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" width="40" height="40" stroke-width="1.5"> <path d="M18 4a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-5l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12z"></path> <path d="M9.5 9h.01"></path> <path d="M14.5 9h.01"></path> <path d="M9.5 13a3.5 3.5 0 0 0 5 0"></path> </svg> 
         </div>
       </div>
@@ -71,9 +71,9 @@ const BentoBox1 = () => {
   
 
   return (
-    <div className="flex justify-center items-center p-5 rounded-lg">        
+    <div className="flex justify-center items-center md:p-5 rounded-lg">        
           
-            <div className="flex flex-col justify-center bg-black rounded-lg p-[50px]">
+            <div className="flex flex-col justify-center bg-black rounded-lg md:p-[50px] p-[20px]">
               <LogoBeam />
               <div className="p-6">
                 <h3 className="text-white text-2xl font-bold my-4 text-center">Supera a la competencia.</h3>
