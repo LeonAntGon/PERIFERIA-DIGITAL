@@ -8,7 +8,30 @@ import WhatsappLive from '../components/snippets/wsp/WhatsappLive';
 
 export default function gestorDeResenas(){
     
-    
+     
+    const containerStyle = {
+        width: '100%',
+        height: '100%',
+        maxHeight: '550px',
+        background: '#000000',
+        '--gap': '5em',
+        '--line': '1px',
+        '--color': 'rgba(255, 255, 255, 0.2)',
+        backgroundImage: `linear-gradient(
+          -90deg,
+          transparent calc(var(--gap) - var(--line)),
+          var(--color) calc(var(--gap) - var(--line) + 1px),
+          var(--color) var(--gap)
+        ),
+        linear-gradient(
+          0deg,
+          transparent calc(var(--gap) - var(--line)),
+          var(--color) calc(var(--gap) - var(--line) + 1px),
+          var(--color) var(--gap)
+        )`,
+        backgroundSize: 'var(--gap) var(--gap)',
+      };
+
     return(
         <>
         
@@ -65,28 +88,8 @@ export default function gestorDeResenas(){
         </section>
 
 
-        <section className='border-t border-b border-gray-300'
-        style={{
-            width: '100%',
-            height: '100%',
-            background: '#000000',
-            '--gap': '5em',
-            '--line': '1px',
-            '--color': 'rgba(255, 255, 255, 0.2)',
-            backgroundImage: `linear-gradient(
-                -90deg,
-                transparent calc(var(--gap) - var(--line)),
-                var(--color) calc(var(--gap) - var(--line) + 1px),
-                var(--color) var(--gap)
-            ),
-            linear-gradient(
-                0deg,
-                transparent calc(var(--gap) - var(--line)),
-                var(--color) calc(var(--gap) - var(--line) + 1px),
-                var(--color) var(--gap)
-            )`,
-            backgroundSize: 'var(--gap) var(--gap)',
-        }}>
+        <section className='border-t border-b border-gray-300 gap-20'
+        style={containerStyle}>
             <div className="grid grid-cols-[1fr_auto_1fr] py-[60px] ">
                 <div className="w-full h-[0.5px] bg-gray-400 my-[12px]"></div>
                 <h3 className='text-[16px] font-bold px-2 text-xl text-center text-gray-100'>La importancia de las reseñas en Google Maps</h3>
