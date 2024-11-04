@@ -1,13 +1,14 @@
-import React from "react";
+"use client"
 import {Accordion, AccordionItem} from "@nextui-org/react";
 import { Montserrat } from "next/font/google";
+import { useState } from "react";
 
 const mont = Montserrat({
     subsets:['latin'],
   })
 
 export default function Questions() {
-  const [selectedKeys, setSelectedKeys] = React.useState(new Set(["1"]));
+  const [selectedKeys, setSelectedKeys] = useState(new Set(["1"]));
 
   const web = "Un sitio web personalizado asegura que tu marca se destaque con un diseño único y adaptable a todos los dispositivos, desde móviles hasta pantallas grandes. También optimizamos el sitio para mejorar la experiencia del usuario y facilitar la conversión.";
 

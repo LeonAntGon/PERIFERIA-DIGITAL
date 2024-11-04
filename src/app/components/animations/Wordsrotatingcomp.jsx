@@ -1,13 +1,13 @@
-
-import React from 'react';
+"use client"
 import { motion, AnimatePresence } from 'framer-motion';
+import { useState, useEffect } from 'react';
 
 const words = ["Desarrollo Web", "Posicionamiento Web", "Google Ads", "Sistemas con IA", "Chatbots" ];
 
 const WordsRotating = () => {
-  const [index, setIndex] = React.useState(0);
+  const [index, setIndex] = useState(0);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prevIndex) => (prevIndex + 1) % words.length);
     }, 2000); // Change word every 2 seconds
