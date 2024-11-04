@@ -1,3 +1,4 @@
+"use client"
 import { Montserrat } from "next/font/google";
 import Link from "next/link";
 import Monalisa from "/src/app/components/animations/Monalisa";
