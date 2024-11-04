@@ -136,7 +136,7 @@ export default function gestorDeResenas(){
             <div className='mx-[60px]'>
                 <p className="md:mt-[40px]" style={{letterSpacing: '2px'}}>Al responder las reseñas de tus clientes,<span className='font-semibold'> Google mejora tu posicionamiento</span>, pero entendemos que no siempre tienes tiempo para hacerlo. Con nuestro gestor automático con IA, podrás responder a las reseñas de tu negocio de manera automática, 24/7.</p>
 
-                <p className="md:mt-[20px]" style={{letterSpacing: '2px'}}>Esta herramienta no solo es más económica que opciones como Google Ads o un sitio web, sino que se enfoca en uno de los activos más importantes para tu negocio: su <span className='font-semibold'>reputación</span>.</p>
+                <p className="my-[20px]" style={{letterSpacing: '2px'}}>Esta herramienta no solo es más económica que opciones como Google Ads o un sitio web, sino que se enfoca en uno de los activos más importantes para tu negocio: su <span className='font-semibold'>reputación</span>.</p>
             </div>
             <AnimatedBeam/>
         </div>
