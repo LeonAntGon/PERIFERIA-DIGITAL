@@ -51,7 +51,8 @@ export default function Hero() {
             <WordsRotatingComp/>
             <div className="mt-[10px] flex justify-center">
                 <a 
-                 href="https://api.whatsapp.com/send?phone=5493813380751">
+                 target="_blank"
+                 href="https://calendly.com/periferiadigital0/reserve-su-llamada-por-zoom">
                 <button
                 style={{filter: "brightness(100%)"}}
                 className="relative inline-flex h-12 active:scale-95 transition overflow-hidden rounded-lg p-[1px] focus:outline-none"
@@ -64,22 +65,11 @@ export default function Hero() {
                 >
                 </span>
                 <span
+                
                 className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg bg-slate-950 px-7 text-sm font-medium text-white backdrop-blur-3xl gap-2"
                 >
-                Contactanos
-                <svg
-                stroke="currentColor"
-                fill="currentColor"
-                strokeWidth="0"
-                viewBox="0 0 448 512"
-                height="1em"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-                >
-                <path
-                d="M429.6 92.1c4.9-11.9 2.1-25.6-7-34.7s-22.8-11.9-34.7-7l-352 144c-14.2 5.8-22.2 20.8-19.3 35.8s16.1 25.8 31.4 25.8H224V432c0 15.3 10.8 28.4 25.8 31.4s30-5.1 35.8-19.3l144-352z"
-                ></path>
-                </svg>
+                Agenda una llamada
+                <svg className="ml-2 mr-[-2px]" width="20px" height="20px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#FFFFFF"><path d="M15 4V2M15 4V6M15 4H10.5M3 10V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V10H3Z" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 10V6C3 4.89543 3.89543 4 5 4H7" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 2V6" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 10V6C21 4.89543 20.1046 4 19 4H18.5" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                 </span>
                </button>
                 </a>   

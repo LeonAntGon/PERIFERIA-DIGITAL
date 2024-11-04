@@ -1,11 +1,10 @@
 import secAdsImage from '/public/images/assets/secads-2.jpg';
 import FacebookSP from '/public/images/assets/facebookInSmarthPhone.jpg';
-import TypewriterAds from "./animations/TypewriterAds";
+import TypewriterAds from "./TypewriterAds";
 import Image from 'next/image';
 
-
-export default function Heroads(){
-    return(
+const Heroads: React.FC = () => {
+    return (
         <>
         <main>
             <section
@@ -59,33 +58,27 @@ export default function Heroads(){
                 </span>
                </button>
                 </a>
-   
-                
                 </div>
             </section>
 
-            
-                <artile className=" py-[40px]">
-                    <p className='text-[#54595F] text-center font-medium my-4'>Lleva tu marca al siguiente nivel</p>
-                    <h2 className='text-center md:text-left text-[1.2rem] font-semibold mb-6 ml-4 mx-8 md:mx-[30px]'>¿Por qué necesitarias servicios de <span className='text-blue-500'>Facebook & Instagram Ads?</span></h2>
-                    <section className='flex flex-wrap justify-center lg:grid lg:grid-cols-2 mx-4 md:mx-[30px]'>
-                        <div className="mx-8 md:mx-0 lg:mr-8 lg:mt-8">
-                            <p className={`my-4 text-[1rem] text-[#54595F]`}>Los servicios de Instagram y Facebook Ads son fundamentales para cualquier negocio que busque mejorar su presencia en línea y alcanzar sus objetivos de marketing.</p>
-                            <p className={`my-6 text-[1rem] text-[#54595F]`}>Estas plataformas ofrecen una segmentación precisa, permitiendo que tus anuncios lleguen a audiencias específicas basadas en intereses y ubicación. Con un alcance global masivo y la capacidad de generar leads y ventas directas, estos anuncios optimizan tus inversiones publicitarias. Además, proporcionan herramientas analíticas detalladas para medir el rendimiento y ajustar estrategias en tiempo real. </p>
-                            <p className={`my-6 text-[1rem] text-[#54595F]`}>Con opciones creativas y formatos diversos, Instagram y Facebook Ads te ayudan a aumentar la visibilidad de tu marca y a interactuar directamente con tu audiencia, manteniéndote competitivo en el mercado digital actual.</p>
-                        </div>
-                        <div className='max-w-[512px] max-h-[480px] flex justify-center items-center'>
-                            
-                            <Image src={FacebookSP} alt="Imagen facebook ads" className='w-full h-full lg:max-h-[512px]'/>                            
-                            
-                        </div>
-                    </section>
-                    
-                </artile>
-            
+            <article className=" py-[40px]">
+                <p className='text-[#54595F] text-center font-medium my-4'>Lleva tu marca al siguiente nivel</p>
+                <h2 className='text-center md:text-left text-[1.2rem] font-semibold mb-6 ml-4 mx-8 md:mx-[30px]'>¿Por qué necesitarias servicios de <span className='text-blue-500'>Facebook & Instagram Ads?</span></h2>
+                <section className='flex flex-wrap justify-center lg:grid lg:grid-cols-2 mx-4 md:mx-[30px]'>
+                    <div className="mx-8 md:mx-0 lg:mr-8 lg:mt-8">
+                        <p className={`my-4 text-[1rem] text-[#54595F]`}>Los servicios de Instagram y Facebook Ads son fundamentales para cualquier negocio que busque mejorar su presencia en línea y alcanzar sus objetivos de marketing.</p>
+                        <p className={`my-6 text-[1rem] text-[#54595F]`}>Estas plataformas ofrecen una segmentación precisa, permitiendo que tus anuncios lleguen a audiencias específicas basadas en intereses y ubicación. Con un alcance global masivo y la capacidad de generar leads y ventas directas, estos anuncios optimizan tus inversiones publicitarias. Además, proporcionan herramientas analíticas detalladas para medir el rendimiento y ajustar estrategias en tiempo real. </p>
+                        <p className={`my-6 text-[1rem] text-[#54595F]`}>Con opciones creativas y formatos diversos, Instagram y Facebook Ads te ayudan a aumentar la visibilidad de tu marca y a interactuar directamente con tu audiencia, manteniéndote competitivo en el mercado digital actual.</p>
+                    </div>
+                    <div className='max-w-[512px] max-h-[480px] flex justify-center items-center'>
+                        <Image src={FacebookSP} alt="Imagen facebook ads" className='w-full h-full lg:max-h-[512px]'/>                            
+                    </div>
+                </section>
+            </article>
+
             <section className="flex items-center justify-center bg-[#ebf0f9] w-full h-[80px] my-[70px]">
                 <div className='pb-5'>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-quote" width="42" height="42" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-quote" width="42" height="42" viewBox="0 0 24 24" strokeWidth="2" stroke="#000000" fill="none" strokeLinecap="round" strokeLinejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                     <path d="M10 11h-4a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v6c0 2.667 -1.333 4.333 -4 5" />
                     <path d="M19 11h-4a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v6c0 2.667 -1.333 4.333 -4 5" />
@@ -93,11 +86,11 @@ export default function Heroads(){
                 </div>
                 <div>
                 <p className='font-raleway text-xs md:text-md font-semibold text-center '>&quot;Si tu negocio no está en Internet, tu negocio no existe.&quot; <br></br> Bill Gates</p>
-
                 </div>
-                
             </section>
         </main>
         </>
     )
 }
+
+export default Heroads;

@@ -64,7 +64,7 @@ class Neonbtn extends React.Component {
     this.setState({ isActive: false });
   };
   handleClick = () => {
-    window.location.href = 'https://api.whatsapp.com/send?phone=5493813380751';
+    window.location.href = 'https://api.whatsapp.com/send?phone=5493816659628';
   };
 
   render() {
@@ -87,7 +87,7 @@ class Neonbtn extends React.Component {
         onClick={this.handleClick}
         className='flex'
       >
-        <p className='pr-4 my-auto'>Contactar</p>
+        <p className='pr-4 my-auto'>Agenda una cita</p>
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="35" height="35" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />

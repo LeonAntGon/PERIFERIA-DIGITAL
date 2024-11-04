@@ -3,7 +3,6 @@ import {Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Navba
 import logo from '/public/images/assets/logo-transparent.png';
 import Image from "next/image";
 import './styles/shinetitle.css';
-import Sliderbar from "./animations/Sliderbar";
 
 const robo = Roboto({
   weight: "900",
@@ -17,6 +16,8 @@ export default function App() {
         return "/";
       case "Desarrollo web":
         return "/desarrolloweb";
+        case "Anuncios en redes":
+        return "/anuncios-en-redes";
       case "Sistemas de automatización":
         return "/automatizar";
       case "Desarrollo de aplicaciones":
@@ -29,7 +30,7 @@ export default function App() {
   const menuItems = [
     "Inicio",
     "Desarrollo web",
-    "Anuncios",
+    "Anuncios en redes",
     "Sistemas de automatización",
     "Desarrollo de aplicaciones",
     "Contacto",
@@ -37,30 +38,22 @@ export default function App() {
 
   return (
     <>
-    <Sliderbar/>
-    <Navbar disableAnimation isBordered className="bg-black top-[-1px]" >
+    <Navbar disableAnimation isBordered className="bg-black" >
       
       
 
       <NavbarContent className=" pr-3" justify="center">
         <NavbarBrand className="md:mx-auto">
-          {/* <AcmeLogo />*/}
+          
           <Link href="/" className="pointer "><Image className="" src={logo.src} alt="logo" height={30} width={30} />
           <div className="z-10 h-[100%]">
-                    {/*<h1 className={`z-20 absolute text-[40px] font-bold font-italic ${saira.className}`}
-                    style={{
-                        textStroke: '1px black',
-                        WebkitTextStroke: '1.5px black',
-                        backgroundImage: 'linear-gradient(to right, #41C5C5, #006DC3)',
-                        backgroundClip: 'text',
-                        color: 'transparent',
-                    }} >PERIFERA DIGITAL</h1>*/}
+                    
                     <h1 className={`shine z-20 pt-2 pl-1 ${robo.className}`}
                     style={{
                       backgroundImage: 'linear-gradient(to right, #e7e58e , #b39253)', // Actualizado
-                      WebkitTextStroke: '0.3px white', // Cambiado a blanco
+                      WebkitTextStroke: '0.3px white', 
                       color: 'transparent',
-                      letterSpacing: '1px', // Agregado
+                      letterSpacing: '1px', 
                     }}
                     >PERIFERIA DIGITAL</h1>
                 </div>

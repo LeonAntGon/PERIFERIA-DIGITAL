@@ -1,5 +1,6 @@
 import { Montserrat } from "next/font/google";
 import Link from "next/link";
+import Monalisa from "/src/app/components/animations/Monalisa";
 
 const mont = Montserrat({
     subsets:['latin'],
@@ -22,11 +23,25 @@ export default function Services(){
 
                 <div className="container mx-auto flex flex-col items-start md:flex-row my-4 md:my-14">
                   <div class="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
-                  <p class="ml-2 text-black font-semibold uppercase tracking-loose">¿DONDE EMPEZAR?</p>
-                  <p class="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2"></p>
-                  <p class="text-sm md:text-base text-gray-800 mb-4">
-                  Nuestros servicios se adaptan perfectamente a tu sector y a tus necesidades específicas. Te ofrecemos una llamada de consultoría para aclarar cualquier duda que tengas y proporcionarte el máximo valor 💎
-                  </p>
+                  <div>
+                    <div>
+                    <p class="ml-2 text-black font-semibold uppercase tracking-loose">¿DONDE EMPEZAR?</p>
+                    <p class="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2"></p>
+                    <p class="text-sm md:text-base text-gray-800 mb-4">
+                    Te ofrecemos una llamada de consultoría para resolver cualquier duda que tengas y brindarte el máximo valor posible. 📅 
+                    </p>
+                    </div>
+                    
+                    <div>
+                      <div className="flex justify-center my-[40px]">
+                      <Monalisa/>
+                      </div>
+                      
+                      <span className="text-gray-600 italic">“Los detalles hacen la perfección, y la perfección no es un detalle.”</span>
+                      <span className="text-gray-500 block">— Leonardo da Vinci</span>
+                    </div>
+                  </div>
+                  
                   
             </div>
       
@@ -44,7 +59,7 @@ export default function Services(){
                 <p className="text-sm md:text-base leading-snug text-gray-900 text-opacity-100">
                 Desarrollo web a medida con diseño atractivo y adaptable dispositivo, desde móviles hasta pantallas grandes.
                 </p>
-                <p className="text-sm font-semibold mb-4">Tiendas | Portafolio | Landing | Empresariales | </p>
+                <p className="text-sm font-semibold mb-4">Tiendas | Landing | Empresariales  | Restaurantes  </p>
                 <Link href="/desarrolloweb" passHref>
                 <button
                 className="relative flex items-center justify-center w-[130px] h-10 bg-black text-white font-semibold gap-2 cursor-pointer shadow-[5px_5px_10px_rgba(0,0,0,0.103)] transition duration-300 overflow-hidden"
@@ -66,7 +81,7 @@ export default function Services(){
                 e.currentTarget.style.transform = '';
                 }}
                 >
-               VER PLANES
+               SABER MÁS
               <span
               className="absolute bg-white rounded-full"
               style={{
@@ -86,11 +101,11 @@ export default function Services(){
               <div className="mb-8 flex justify-between items-center w-full right-timeline">
               <div className="order-1 w-5/12"></div>
               <div className="order-1 w-5/12 px-1 py-4">
-                <h4 className={`mb-3 font-bold text-lg md:text-xl ${mont.className}`}>Anuncios en redes</h4>
+                <h4 className={`mb-3 font-bold text-lg md:text-xl ${mont.className}`}>Gestor de Reseñas con IA</h4>
                 <p className="text-sm md:text-base leading-snug text-gray-900 text-opacity-100">
-                Maximiza las probabilidades de venta asegurando que tu contenido llegue a la audiencia correcta mediante anuncios estrategicos.</p>
-                <p className="text-sm font-semibold mb-4">Instagram Ads | Facebook Ads </p>
-                <Link href="/anuncios" passHref>
+                Al brindar respuestas rápidas y precisas, muestra a los motores de búsqueda que tu negocio se destaca en atención al cliente, ayudando a mejorar tu posicionamiento frente a la competencia.</p>
+                <p className="text-sm font-semibold mb-4">Automatización con IA </p>
+                <Link href="/gestor-de-resenas" passHref>
                 <button
                 className="mt-4 relative flex items-center justify-center w-[130px] h-10 bg-black text-white font-semibold gap-2 cursor-pointer shadow-[5px_5px_10px_rgba(0,0,0,0.103)] transition duration-300 overflow-hidden"
                 style={{ border: 'none' }}
@@ -111,7 +126,7 @@ export default function Services(){
                 e.currentTarget.style.transform = '';
                 }}
                 >
-               VER PLANES
+               SABER MÁS
               <span
               className="absolute bg-white rounded-full"
               style={{
@@ -134,10 +149,10 @@ export default function Services(){
             <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
               <div className="order-1 w-5/12"></div>
               <div className="order-1 w-5/12 px-[1px] py-4 text-left">
-                <h4 className={`mb-3 font-bold text-lg md:text-xl text-center ${mont.className}`}>Mensajeria automatizada</h4>
+                <h4 className={`mb-3 font-bold text-lg md:text-xl text-center ${mont.className}`}>Google Ads</h4>
                 <p className="text-sm md:text-base leading-snug text-gray-900 text-opacity-100">
-                Bots de consultoría y/o respuesta con automatizacion de mensajes via Whats App, Instagram, Facebook y web.</p>
-                <Link href="/proximamente" passHref>
+                Google Ads impulsa tu negocio al atraer clientes potenciales mostrando tus anuncios en búsquedas clave, aumentando la visibilidad y así generando más ventas.</p>
+                <Link href="/google-ads" passHref>
                 <button
                 className="mt-4 relative flex items-center justify-center w-[130px] h-10 bg-black text-white font-semibold gap-2 cursor-pointer shadow-[5px_5px_10px_rgba(0,0,0,0.103)] transition duration-300 overflow-hidden"
                 style={{ border: 'none' }}
@@ -158,7 +173,7 @@ export default function Services(){
                 e.currentTarget.style.transform = '';
                 }}
                 >
-               VER PLANES
+               SABER MÁS
               <span
               className="absolute bg-white rounded-full"
               style={{
@@ -178,54 +193,7 @@ export default function Services(){
               </div>
               
             </div>
-            <div className="mb-8 flex justify-between items-center w-full right-timeline">
-              <div className="order-1 w-5/12"></div>
-              <div className="order-1 w-5/12 px-1 py-4">
-                <h4 className={`mb-3 font-bold text-lg md:text-xl ${mont.className}`}>Aplicaciones móviles</h4>
-                <p className="text-sm md:text-base leading-snug text-gray-900 text-opacity-100">
-                Creamos aplicaciones híbridas con React Native para iOS y Android, asegurando eficiencia y una experiencia fluida en todos los dispositivos. Maximiza tu alcance y llega a más usuarios con una sola solución.</p>
-                <p className="text-sm font-semibold mb-4">Aplicaciones hibridas | React Native</p>
-                <Link href="/desarrollo-de-apps" passHref>
-                <button
-                className="mt-4 relative flex items-center justify-center w-[130px] h-10 bg-black text-white font-semibold gap-2 cursor-pointer shadow-[5px_5px_10px_rgba(0,0,0,0.103)] transition duration-300 overflow-hidden"
-                style={{ border: 'none' }}
-                onMouseOver={(e) => {
-                const before = e.currentTarget.querySelector('span');
-                before.style.transform = 'translate(100%,-50%)';
-                before.style.borderRadius = '0';
-                }}
-                onMouseOut={(e) => {
-                const before = e.currentTarget.querySelector('span');
-                 before.style.transform = '';
-                before.style.borderRadius = '50%';
-                }}
-                onMouseDown={(e) => {
-                e.currentTarget.style.transform = 'translate(5px,5px)';
-                 }}
-                 onMouseUp={(e) => {
-                e.currentTarget.style.transform = '';
-                }}
-                >
-               VER PLANES
-              <span
-              className="absolute bg-white rounded-full"
-              style={{
-              width: '130px',
-              height: '130px',
-              left: '-100%',
-              top: '0',
-              transitionDuration: '0.3s',
-              mixBlendMode: 'difference',
-              }}
-             ></span>
-             </button>
-                </Link>
-
-                
-                
-              </div>
-              
-            </div>
+            
             </div>
             
            </div>

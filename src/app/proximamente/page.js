@@ -1,7 +1,7 @@
 "use client"
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
-import Hamster from '../components/animations/Hamster'
+import Hamster from './components/Hamster'
 
 export default function Proximamente(){
     return(
