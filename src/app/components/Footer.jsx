@@ -178,7 +178,7 @@ export default function Footer() {
             </Link>
           </li>*/}
 
-          <li>
+          {/*<li>
             <Link
               href="https://www.instagram.com/periferia.digital.oficial/"
               rel="noreferrer"
@@ -194,7 +194,7 @@ export default function Footer() {
                 />
               </svg>
             </Link>
-          </li>
+          </li>*/}
 
           <li>
             <Link
