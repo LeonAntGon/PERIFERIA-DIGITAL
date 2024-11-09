@@ -16,12 +16,10 @@ export default function App() {
         return "/";
       case "Desarrollo web":
         return "/desarrolloweb";
-        case "Anuncios en redes":
-        return "/anuncios-en-redes";
-      case "Sistemas de automatización":
-        return "/automatizar";
-      case "Desarrollo de aplicaciones":
-        return "desarrollo-de-apps";
+      case "Gestor de Reseñas con IA":
+        return "/gestor-de-resenas";
+      case "Google Ads":
+        return "google-ads";
       default:
         return `/${item.toLowerCase().replace(/ /g, "")}`;
     }
@@ -31,8 +29,8 @@ export default function App() {
     "Inicio",
     "Desarrollo web",
     "Anuncios en redes",
-    "Sistemas de automatización",
-    "Desarrollo de aplicaciones",
+    "Gestor de Reseñas con IA",
+    "Google Ads",
     "Contacto",
   ];
 
