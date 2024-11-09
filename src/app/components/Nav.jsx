@@ -28,7 +28,6 @@ export default function App() {
   const menuItems = [
     "Inicio",
     "Desarrollo web",
-    "Anuncios en redes",
     "Gestor de Reseñas con IA",
     "Google Ads",
     "Contacto",
