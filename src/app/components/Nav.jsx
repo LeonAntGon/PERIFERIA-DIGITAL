@@ -3,6 +3,7 @@ import {Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenu, NavbarMenuItem, Navba
 import logo from '/public/images/assets/logo-transparent.png';
 import Image from "next/image";
 import './styles/shinetitle.css';
+import HoverLink from "./snippets/HoverLink"
 
 const robo = Roboto({
   weight: "900",
@@ -58,7 +59,22 @@ export default function App() {
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="" justify="end">
+
+
+
+      <div className="hidden lg:flex items-center mr-6">
+            <ul className="flex space-x-6">
+              {menuItems.map((item, index) => (
+                <li key={`${item}-${index}`}>
+                  <HoverLink href={generateHref(item)} text={item} />
+                </li>
+              ))}
+            </ul>
+          </div>
+
+
+
+      <NavbarContent className="flex md:hidden" justify="end">
         <NavbarMenuToggle className="text-white"/>
       </NavbarContent>
 
