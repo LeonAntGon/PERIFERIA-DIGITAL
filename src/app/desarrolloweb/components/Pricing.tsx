@@ -154,7 +154,7 @@ export default function Pricing(): JSX.Element {
                     </h2>
 
                     <p className="mt-2 sm:mt-4">
-                        <strong className="text-3xl font-bold text-gray-900 sm:text-3xl"> 40.000$ </strong><span className="text-sm font-medium text-gray-700">/pago único</span>
+                        <strong className="text-3xl font-bold text-gray-900 sm:text-3xl"> 300.000$ </strong><span className="text-sm font-medium text-gray-700">/pago único</span>
                         <div className="grid grid-cols-[1fr_auto_1fr] my-[16px]">
                     <div className="w-full h-[0.5px] bg-gray-400 my-[12px]"></div>
                     <span className="text-gray-700">Abono mensual: $20.000</span>
